@@ -1,0 +1,1808 @@
+[
+	{
+		"country": "Afghanistan",
+		"2code": "AF",
+		"3code": "AFG",
+		"id": 4,
+		"flag": "https://flagsapi.com/AF/flat/64.png"
+	},
+	{
+		"country": "Albania",
+		"2code": "AL",
+		"3code": "ALB",
+		"id": 8,
+		"flag": "https://flagsapi.com/AL/flat/64.png"
+	},
+	{
+		"country": "Algeria",
+		"2code": "DZ",
+		"3code": "DZA",
+		"id": 12,
+		"flag": "https://flagsapi.com/DZ/flat/64.png"
+	},
+	{
+		"country": "American Samoa",
+		"2code": "AS",
+		"3code": "ASM",
+		"id": 16,
+		"flag": "https://flagsapi.com/AS/flat/64.png"
+	},
+	{
+		"country": "Andorra",
+		"2code": "AD",
+		"3code": "AND",
+		"id": 20,
+		"flag": "https://flagsapi.com/AD/flat/64.png"
+	},
+	{
+		"country": "Angola",
+		"2code": "AO",
+		"3code": "AGO",
+		"id": 24,
+		"flag": "https://flagsapi.com/AO/flat/64.png"
+	},
+	{
+		"country": "Anguilla",
+		"2code": "AI",
+		"3code": "AIA",
+		"id": 660,
+		"flag": "https://flagsapi.com/AI/flat/64.png"
+	},
+	{
+		"country": "Antarctica",
+		"2code": "AQ",
+		"3code": "ATA",
+		"id": 10,
+		"flag": "https://flagsapi.com/AQ/flat/64.png"
+	},
+	{
+		"country": "Antigua and Barbuda",
+		"2code": "AG",
+		"3code": "ATG",
+		"id": 28,
+		"flag": "https://flagsapi.com/AG/flat/64.png"
+	},
+	{
+		"country": "Argentina",
+		"2code": "AR",
+		"3code": "ARG",
+		"id": 32,
+		"flag": "https://flagsapi.com/AR/flat/64.png"
+	},
+	{
+		"country": "Armenia",
+		"2code": "AM",
+		"3code": "ARM",
+		"id": 51,
+		"flag": "https://flagsapi.com/AM/flat/64.png"
+	},
+	{
+		"country": "Aruba",
+		"2code": "AW",
+		"3code": "ABW",
+		"id": 533,
+		"flag": "https://flagsapi.com/AW/flat/64.png"
+	},
+	{
+		"country": "Australia",
+		"2code": "AU",
+		"3code": "AUS",
+		"id": 36,
+		"flag": "https://flagsapi.com/AU/flat/64.png"
+	},
+	{
+		"country": "Austria",
+		"2code": "AT",
+		"3code": "AUT",
+		"id": 40,
+		"flag": "https://flagsapi.com/AT/flat/64.png"
+	},
+	{
+		"country": "Azerbaijan",
+		"2code": "AZ",
+		"3code": "AZE",
+		"id": 31,
+		"flag": "https://flagsapi.com/AZ/flat/64.png"
+	},
+	{
+		"country": "Bahamas (the)",
+		"2code": "BS",
+		"3code": "BHS",
+		"id": 44,
+		"flag": "https://flagsapi.com/BS/flat/64.png"
+	},
+	{
+		"country": "Bahrain",
+		"2code": "BH",
+		"3code": "BHR",
+		"id": 48,
+		"flag": "https://flagsapi.com/BH/flat/64.png"
+	},
+	{
+		"country": "Bangladesh",
+		"2code": "BD",
+		"3code": "BGD",
+		"id": 50,
+		"flag": "https://flagsapi.com/BD/flat/64.png"
+	},
+	{
+		"country": "Barbados",
+		"2code": "BB",
+		"3code": "BRB",
+		"id": 52,
+		"flag": "https://flagsapi.com/BB/flat/64.png"
+	},
+	{
+		"country": "Belarus",
+		"2code": "BY",
+		"3code": "BLR",
+		"id": 112,
+		"flag": "https://flagsapi.com/BY/flat/64.png"
+	},
+	{
+		"country": "Belgium",
+		"2code": "BE",
+		"3code": "BEL",
+		"id": 56,
+		"flag": "https://flagsapi.com/BE/flat/64.png"
+	},
+	{
+		"country": "Belize",
+		"2code": "BZ",
+		"3code": "BLZ",
+		"id": 84,
+		"flag": "https://flagsapi.com/BZ/flat/64.png"
+	},
+	{
+		"country": "Benin",
+		"2code": "BJ",
+		"3code": "BEN",
+		"id": 204,
+		"flag": "https://flagsapi.com/BJ/flat/64.png"
+	},
+	{
+		"country": "Bermuda",
+		"2code": "BM",
+		"3code": "BMU",
+		"id": 60,
+		"flag": "https://flagsapi.com/BM/flat/64.png"
+	},
+	{
+		"country": "Bhutan",
+		"2code": "BT",
+		"3code": "BTN",
+		"id": 64,
+		"flag": "https://flagsapi.com/BT/flat/64.png"
+	},
+	{
+		"country": "Bolivia (Plurinational State of)",
+		"2code": "BO",
+		"3code": "BOL",
+		"id": 68,
+		"flag": "https://flagsapi.com/BO/flat/64.png"
+	},
+	{
+		"country": "Bonaire, Sint Eustatius and Saba",
+		"2code": "BQ",
+		"3code": "BES",
+		"id": 535,
+		"flag": "https://flagsapi.com/BQ/flat/64.png"
+	},
+	{
+		"country": "Bosnia and Herzegovina",
+		"2code": "BA",
+		"3code": "BIH",
+		"id": 70,
+		"flag": "https://flagsapi.com/BA/flat/64.png"
+	},
+	{
+		"country": "Botswana",
+		"2code": "BW",
+		"3code": "BWA",
+		"id": 72,
+		"flag": "https://flagsapi.com/BW/flat/64.png"
+	},
+	{
+		"country": "Bouvet Island",
+		"2code": "BV",
+		"3code": "BVT",
+		"id": 74,
+		"flag": "https://flagsapi.com/BV/flat/64.png"
+	},
+	{
+		"country": "Brazil",
+		"2code": "BR",
+		"3code": "BRA",
+		"id": 76,
+		"flag": "https://flagsapi.com/BR/flat/64.png"
+	},
+	{
+		"country": "British Indian Ocean Territory (the)",
+		"2code": "IO",
+		"3code": "IOT",
+		"id": 86,
+		"flag": "https://flagsapi.com/IO/flat/64.png"
+	},
+	{
+		"country": "Brunei Darussalam",
+		"2code": "BN",
+		"3code": "BRN",
+		"id": 96,
+		"flag": "https://flagsapi.com/BN/flat/64.png"
+	},
+	{
+		"country": "Bulgaria",
+		"2code": "BG",
+		"3code": "BGR",
+		"id": 100,
+		"flag": "https://flagsapi.com/BG/flat/64.png"
+	},
+	{
+		"country": "Burkina Faso",
+		"2code": "BF",
+		"3code": "BFA",
+		"id": 854,
+		"flag": "https://flagsapi.com/BF/flat/64.png"
+	},
+	{
+		"country": "Burundi",
+		"2code": "BI",
+		"3code": "BDI",
+		"id": 108,
+		"flag": "https://flagsapi.com/BI/flat/64.png"
+	},
+	{
+		"country": "Cabo Verde",
+		"2code": "CV",
+		"3code": "CPV",
+		"id": 132,
+		"flag": "https://flagsapi.com/CV/flat/64.png"
+	},
+	{
+		"country": "Cambodia",
+		"2code": "KH",
+		"3code": "KHM",
+		"id": 116,
+		"flag": "https://flagsapi.com/KH/flat/64.png"
+	},
+	{
+		"country": "Cameroon",
+		"2code": "CM",
+		"3code": "CMR",
+		"id": 120,
+		"flag": "https://flagsapi.com/CM/flat/64.png"
+	},
+	{
+		"country": "Canada",
+		"2code": "CA",
+		"3code": "CAN",
+		"id": 124,
+		"flag": "https://flagsapi.com/CA/flat/64.png"
+	},
+	{
+		"country": "Cayman Islands (the)",
+		"2code": "KY",
+		"3code": "CYM",
+		"id": 136,
+		"flag": "https://flagsapi.com/KY/flat/64.png"
+	},
+	{
+		"country": "Central African Republic (the)",
+		"2code": "CF",
+		"3code": "CAF",
+		"id": 140,
+		"flag": "https://flagsapi.com/CF/flat/64.png"
+	},
+	{
+		"country": "Chad",
+		"2code": "TD",
+		"3code": "TCD",
+		"id": 148,
+		"flag": "https://flagsapi.com/TD/flat/64.png"
+	},
+	{
+		"country": "Chile",
+		"2code": "CL",
+		"3code": "CHL",
+		"id": 152,
+		"flag": "https://flagsapi.com/CL/flat/64.png"
+	},
+	{
+		"country": "China",
+		"2code": "CN",
+		"3code": "CHN",
+		"id": 156,
+		"flag": "https://flagsapi.com/CN/flat/64.png"
+	},
+	{
+		"country": "Christmas Island",
+		"2code": "CX",
+		"3code": "CXR",
+		"id": 162,
+		"flag": "https://flagsapi.com/CX/flat/64.png"
+	},
+	{
+		"country": "Cocos (Keeling) Islands (the)",
+		"2code": "CC",
+		"3code": "CCK",
+		"id": 166,
+		"flag": "https://flagsapi.com/CC/flat/64.png"
+	},
+	{
+		"country": "Colombia",
+		"2code": "CO",
+		"3code": "COL",
+		"id": 170,
+		"flag": "https://flagsapi.com/CO/flat/64.png"
+	},
+	{
+		"country": "Comoros (the)",
+		"2code": "KM",
+		"3code": "COM",
+		"id": 174,
+		"flag": "https://flagsapi.com/KM/flat/64.png"
+	},
+	{
+		"country": "Congo (the Democratic Republic of the)",
+		"2code": "CD",
+		"3code": "COD",
+		"id": 180,
+		"flag": "https://flagsapi.com/CD/flat/64.png"
+	},
+	{
+		"country": "Congo (the)",
+		"2code": "CG",
+		"3code": "COG",
+		"id": 178,
+		"flag": "https://flagsapi.com/CG/flat/64.png"
+	},
+	{
+		"country": "Cook Islands (the)",
+		"2code": "CK",
+		"3code": "COK",
+		"id": 184,
+		"flag": "https://flagsapi.com/CK/flat/64.png"
+	},
+	{
+		"country": "Costa Rica",
+		"2code": "CR",
+		"3code": "CRI",
+		"id": 188,
+		"flag": "https://flagsapi.com/CR/flat/64.png"
+	},
+	{
+		"country": "Croatia",
+		"2code": "HR",
+		"3code": "HRV",
+		"id": 191,
+		"flag": "https://flagsapi.com/HR/flat/64.png"
+	},
+	{
+		"country": "Cuba",
+		"2code": "CU",
+		"3code": "CUB",
+		"id": 192,
+		"flag": "https://flagsapi.com/CU/flat/64.png"
+	},
+	{
+		"country": "Curaçao",
+		"2code": "CW",
+		"3code": "CUW",
+		"id": 531,
+		"flag": "https://flagsapi.com/CW/flat/64.png"
+	},
+	{
+		"country": "Cyprus",
+		"2code": "CY",
+		"3code": "CYP",
+		"id": 196,
+		"flag": "https://flagsapi.com/CY/flat/64.png"
+	},
+	{
+		"country": "Czechia",
+		"2code": "CZ",
+		"3code": "CZE",
+		"id": 203,
+		"flag": "https://flagsapi.com/CZ/flat/64.png"
+	},
+	{
+		"country": "Côte d'Ivoire",
+		"2code": "CI",
+		"3code": "CIV",
+		"id": 384,
+		"flag": "https://flagsapi.com/CI/flat/64.png"
+	},
+	{
+		"country": "Denmark",
+		"2code": "DK",
+		"3code": "DNK",
+		"id": 208,
+		"flag": "https://flagsapi.com/DK/flat/64.png"
+	},
+	{
+		"country": "Djibouti",
+		"2code": "DJ",
+		"3code": "DJI",
+		"id": 262,
+		"flag": "https://flagsapi.com/DJ/flat/64.png"
+	},
+	{
+		"country": "Dominica",
+		"2code": "DM",
+		"3code": "DMA",
+		"id": 212,
+		"flag": "https://flagsapi.com/DM/flat/64.png"
+	},
+	{
+		"country": "Dominican Republic (the)",
+		"2code": "DO",
+		"3code": "DOM",
+		"id": 214,
+		"flag": "https://flagsapi.com/DO/flat/64.png"
+	},
+	{
+		"country": "Ecuador",
+		"2code": "EC",
+		"3code": "ECU",
+		"id": 218,
+		"flag": "https://flagsapi.com/EC/flat/64.png"
+	},
+	{
+		"country": "Egypt",
+		"2code": "EG",
+		"3code": "EGY",
+		"id": 818,
+		"flag": "https://flagsapi.com/EG/flat/64.png"
+	},
+	{
+		"country": "El Salvador",
+		"2code": "SV",
+		"3code": "SLV",
+		"id": 222,
+		"flag": "https://flagsapi.com/SV/flat/64.png"
+	},
+	{
+		"country": "Equatorial Guinea",
+		"2code": "GQ",
+		"3code": "GNQ",
+		"id": 226,
+		"flag": "https://flagsapi.com/GQ/flat/64.png"
+	},
+	{
+		"country": "Eritrea",
+		"2code": "ER",
+		"3code": "ERI",
+		"id": 232,
+		"flag": "https://flagsapi.com/ER/flat/64.png"
+	},
+	{
+		"country": "Estonia",
+		"2code": "EE",
+		"3code": "EST",
+		"id": 233,
+		"flag": "https://flagsapi.com/EE/flat/64.png"
+	},
+	{
+		"country": "Eswatini",
+		"2code": "SZ",
+		"3code": "SWZ",
+		"id": 748,
+		"flag": "https://flagsapi.com/SZ/flat/64.png"
+	},
+	{
+		"country": "Ethiopia",
+		"2code": "ET",
+		"3code": "ETH",
+		"id": 231,
+		"flag": "https://flagsapi.com/ET/flat/64.png"
+	},
+	{
+		"country": "Falkland Islands (the) [Malvinas]",
+		"2code": "FK",
+		"3code": "FLK",
+		"id": 238,
+		"flag": "https://flagsapi.com/FK/flat/64.png"
+	},
+	{
+		"country": "Faroe Islands (the)",
+		"2code": "FO",
+		"3code": "FRO",
+		"id": 234,
+		"flag": "https://flagsapi.com/FO/flat/64.png"
+	},
+	{
+		"country": "Fiji",
+		"2code": "FJ",
+		"3code": "FJI",
+		"id": 242,
+		"flag": "https://flagsapi.com/FJ/flat/64.png"
+	},
+	{
+		"country": "Fiji",
+		"2code": "FJ",
+		"3code": "FIJ",
+		"id": 242,
+		"flag": "https://flagsapi.com/FJ/flat/64.png"
+	},
+	{
+		"country": "Finland",
+		"2code": "FI",
+		"3code": "FIN",
+		"id": 246,
+		"flag": "https://flagsapi.com/FI/flat/64.png"
+	},
+	{
+		"country": "France",
+		"2code": "FR",
+		"3code": "FRA",
+		"id": 250,
+		"flag": "https://flagsapi.com/FR/flat/64.png"
+	},
+	{
+		"country": "French Guiana",
+		"2code": "GF",
+		"3code": "GUF",
+		"id": 254,
+		"flag": "https://flagsapi.com/GF/flat/64.png"
+	},
+	{
+		"country": "French Polynesia",
+		"2code": "PF",
+		"3code": "PYF",
+		"id": 258,
+		"flag": "https://flagsapi.com/PF/flat/64.png"
+	},
+	{
+		"country": "French Southern Territories (the)",
+		"2code": "TF",
+		"3code": "ATF",
+		"id": 260,
+		"flag": "https://flagsapi.com/TF/flat/64.png"
+	},
+	{
+		"country": "Gabon",
+		"2code": "GA",
+		"3code": "GAB",
+		"id": 266,
+		"flag": "https://flagsapi.com/GA/flat/64.png"
+	},
+	{
+		"country": "Gambia (the)",
+		"2code": "GM",
+		"3code": "GMB",
+		"id": 270,
+		"flag": "https://flagsapi.com/GM/flat/64.png"
+	},
+	{
+		"country": "Georgia",
+		"2code": "GE",
+		"3code": "GEO",
+		"id": 268,
+		"flag": "https://flagsapi.com/GE/flat/64.png"
+	},
+	{
+		"country": "Germany",
+		"2code": "DE",
+		"3code": "DEU",
+		"id": 276,
+		"flag": "https://flagsapi.com/DE/flat/64.png"
+	},
+	{
+		"country": "Germany",
+		"2code": "DE",
+		"3code": "GER",
+		"id": 276,
+		"flag": "https://flagsapi.com/DE/flat/64.png"
+	},
+	{
+		"country": "Ghana",
+		"2code": "GH",
+		"3code": "GHA",
+		"id": 288,
+		"flag": "https://flagsapi.com/GH/flat/64.png"
+	},
+	{
+		"country": "Gibraltar",
+		"2code": "GI",
+		"3code": "GIB",
+		"id": 292,
+		"flag": "https://flagsapi.com/GI/flat/64.png"
+	},
+	{
+		"country": "Greece",
+		"2code": "GR",
+		"3code": "GRC",
+		"id": 300,
+		"flag": "https://flagsapi.com/GR/flat/64.png"
+	},
+	{
+		"country": "Greenland",
+		"2code": "GL",
+		"3code": "GRL",
+		"id": 304,
+		"flag": "https://flagsapi.com/GL/flat/64.png"
+	},
+	{
+		"country": "Grenada",
+		"2code": "GD",
+		"3code": "GRD",
+		"id": 308,
+		"flag": "https://flagsapi.com/GD/flat/64.png"
+	},
+	{
+		"country": "Guadeloupe",
+		"2code": "GP",
+		"3code": "GLP",
+		"id": 312,
+		"flag": "https://flagsapi.com/GP/flat/64.png"
+	},
+	{
+		"country": "Guam",
+		"2code": "GU",
+		"3code": "GUM",
+		"id": 316,
+		"flag": "https://flagsapi.com/GU/flat/64.png"
+	},
+	{
+		"country": "Guatemala",
+		"2code": "GT",
+		"3code": "GTM",
+		"id": 320,
+		"flag": "https://flagsapi.com/GT/flat/64.png"
+	},
+	{
+		"country": "Guernsey",
+		"2code": "GG",
+		"3code": "GGY",
+		"id": 831,
+		"flag": "https://flagsapi.com/GG/flat/64.png"
+	},
+	{
+		"country": "Guinea",
+		"2code": "GN",
+		"3code": "GIN",
+		"id": 324,
+		"flag": "https://flagsapi.com/GN/flat/64.png"
+	},
+	{
+		"country": "Guinea-Bissau",
+		"2code": "GW",
+		"3code": "GNB",
+		"id": 624,
+		"flag": "https://flagsapi.com/GW/flat/64.png"
+	},
+	{
+		"country": "Guyana",
+		"2code": "GY",
+		"3code": "GUY",
+		"id": 328,
+		"flag": "https://flagsapi.com/GY/flat/64.png"
+	},
+	{
+		"country": "Haiti",
+		"2code": "HT",
+		"3code": "HTI",
+		"id": 332,
+		"flag": "https://flagsapi.com/HT/flat/64.png"
+	},
+	{
+		"country": "Heard Island and McDonald Islands",
+		"2code": "HM",
+		"3code": "HMD",
+		"id": 334,
+		"flag": "https://flagsapi.com/HM/flat/64.png"
+	},
+	{
+		"country": "Holy See (the)",
+		"2code": "VA",
+		"3code": "VAT",
+		"id": 336,
+		"flag": "https://flagsapi.com/VA/flat/64.png"
+	},
+	{
+		"country": "Honduras",
+		"2code": "HN",
+		"3code": "HND",
+		"id": 340,
+		"flag": "https://flagsapi.com/HN/flat/64.png"
+	},
+	{
+		"country": "Hong Kong",
+		"2code": "HK",
+		"3code": "HKG",
+		"id": 344,
+		"flag": "https://flagsapi.com/HK/flat/64.png"
+	},
+	{
+		"country": "Hungary",
+		"2code": "HU",
+		"3code": "HUN",
+		"id": 348,
+		"flag": "https://flagsapi.com/HU/flat/64.png"
+	},
+	{
+		"country": "Iceland",
+		"2code": "IS",
+		"3code": "ISL",
+		"id": 352,
+		"flag": "https://flagsapi.com/IS/flat/64.png"
+	},
+	{
+		"country": "India",
+		"2code": "IN",
+		"3code": "IND",
+		"id": 356,
+		"flag": "https://flagsapi.com/IN/flat/64.png"
+	},
+	{
+		"country": "Indonesia",
+		"2code": "ID",
+		"3code": "IDN",
+		"id": 360,
+		"flag": "https://flagsapi.com/ID/flat/64.png"
+	},
+	{
+		"country": "Iran (Islamic Republic of)",
+		"2code": "IR",
+		"3code": "IRN",
+		"id": 364,
+		"flag": "https://flagsapi.com/IR/flat/64.png"
+	},
+	{
+		"country": "Iraq",
+		"2code": "IQ",
+		"3code": "IRQ",
+		"id": 368,
+		"flag": "https://flagsapi.com/IQ/flat/64.png"
+	},
+	{
+		"country": "Ireland",
+		"2code": "IE",
+		"3code": "IRL",
+		"id": 372,
+		"flag": "https://flagsapi.com/IE/flat/64.png"
+	},
+	{
+		"country": "Ireland",
+		"2code": "IE",
+		"3code": "IRE",
+		"id": 372,
+		"flag": "https://flagsapi.com/IE/flat/64.png"
+	},
+	{
+		"country": "Isle of Man",
+		"2code": "IM",
+		"3code": "IMN",
+		"id": 833,
+		"flag": "https://flagsapi.com/IM/flat/64.png"
+	},
+	{
+		"country": "Israel",
+		"2code": "IL",
+		"3code": "ISR",
+		"id": 376,
+		"flag": "https://flagsapi.com/IL/flat/64.png"
+	},
+	{
+		"country": "Italy",
+		"2code": "IT",
+		"3code": "ITA",
+		"id": 380,
+		"flag": "https://flagsapi.com/IT/flat/64.png"
+	},
+	{
+		"country": "Jamaica",
+		"2code": "JM",
+		"3code": "JAM",
+		"id": 388,
+		"flag": "https://flagsapi.com/JM/flat/64.png"
+	},
+	{
+		"country": "Japan",
+		"2code": "JP",
+		"3code": "JPN",
+		"id": 392,
+		"flag": "https://flagsapi.com/JP/flat/64.png"
+	},
+	{
+		"country": "Jersey",
+		"2code": "JE",
+		"3code": "JEY",
+		"id": 832,
+		"flag": "https://flagsapi.com/JE/flat/64.png"
+	},
+	{
+		"country": "Jordan",
+		"2code": "JO",
+		"3code": "JOR",
+		"id": 400,
+		"flag": "https://flagsapi.com/JO/flat/64.png"
+	},
+	{
+		"country": "Kazakhstan",
+		"2code": "KZ",
+		"3code": "KAZ",
+		"id": 398,
+		"flag": "https://flagsapi.com/KZ/flat/64.png"
+	},
+	{
+		"country": "Kenya",
+		"2code": "KE",
+		"3code": "KEN",
+		"id": 404,
+		"flag": "https://flagsapi.com/KE/flat/64.png"
+	},
+	{
+		"country": "Kiribati",
+		"2code": "KI",
+		"3code": "KIR",
+		"id": 296,
+		"flag": "https://flagsapi.com/KI/flat/64.png"
+	},
+	{
+		"country": "Korea (the Democratic People's Republic of)",
+		"2code": "KP",
+		"3code": "PRK",
+		"id": 408,
+		"flag": "https://flagsapi.com/KP/flat/64.png"
+	},
+	{
+		"country": "Korea (the Republic of)",
+		"2code": "KR",
+		"3code": "KOR",
+		"id": 410,
+		"flag": "https://flagsapi.com/KR/flat/64.png"
+	},
+	{
+		"country": "Kuwait",
+		"2code": "KW",
+		"3code": "KWT",
+		"id": 414,
+		"flag": "https://flagsapi.com/KW/flat/64.png"
+	},
+	{
+		"country": "Kyrgyzstan",
+		"2code": "KG",
+		"3code": "KGZ",
+		"id": 417,
+		"flag": "https://flagsapi.com/KG/flat/64.png"
+	},
+	{
+		"country": "Lao People's Democratic Republic (the)",
+		"2code": "LA",
+		"3code": "LAO",
+		"id": 418,
+		"flag": "https://flagsapi.com/LA/flat/64.png"
+	},
+	{
+		"country": "Latvia",
+		"2code": "LV",
+		"3code": "LVA",
+		"id": 428,
+		"flag": "https://flagsapi.com/LV/flat/64.png"
+	},
+	{
+		"country": "Lebanon",
+		"2code": "LB",
+		"3code": "LBN",
+		"id": 422,
+		"flag": "https://flagsapi.com/LB/flat/64.png"
+	},
+	{
+		"country": "Lesotho",
+		"2code": "LS",
+		"3code": "LSO",
+		"id": 426,
+		"flag": "https://flagsapi.com/LS/flat/64.png"
+	},
+	{
+		"country": "Liberia",
+		"2code": "LR",
+		"3code": "LBR",
+		"id": 430,
+		"flag": "https://flagsapi.com/LR/flat/64.png"
+	},
+	{
+		"country": "Libya",
+		"2code": "LY",
+		"3code": "LBY",
+		"id": 434,
+		"flag": "https://flagsapi.com/LY/flat/64.png"
+	},
+	{
+		"country": "Liechtenstein",
+		"2code": "LI",
+		"3code": "LIE",
+		"id": 438,
+		"flag": "https://flagsapi.com/LI/flat/64.png"
+	},
+	{
+		"country": "Lithuania",
+		"2code": "LT",
+		"3code": "LTU",
+		"id": 440,
+		"flag": "https://flagsapi.com/LT/flat/64.png"
+	},
+	{
+		"country": "Luxembourg",
+		"2code": "LU",
+		"3code": "LUX",
+		"id": 442,
+		"flag": "https://flagsapi.com/LU/flat/64.png"
+	},
+	{
+		"country": "Macao",
+		"2code": "MO",
+		"3code": "MAC",
+		"id": 446,
+		"flag": "https://flagsapi.com/MO/flat/64.png"
+	},
+	{
+		"country": "Madagascar",
+		"2code": "MG",
+		"3code": "MDG",
+		"id": 450,
+		"flag": "https://flagsapi.com/MG/flat/64.png"
+	},
+	{
+		"country": "Malawi",
+		"2code": "MW",
+		"3code": "MWI",
+		"id": 454,
+		"flag": "https://flagsapi.com/MW/flat/64.png"
+	},
+	{
+		"country": "Malaysia",
+		"2code": "MY",
+		"3code": "MYS",
+		"id": 458,
+		"flag": "https://flagsapi.com/MY/flat/64.png"
+	},
+	{
+		"country": "Maldives",
+		"2code": "MV",
+		"3code": "MDV",
+		"id": 462,
+		"flag": "https://flagsapi.com/MV/flat/64.png"
+	},
+	{
+		"country": "Mali",
+		"2code": "ML",
+		"3code": "MLI",
+		"id": 466,
+		"flag": "https://flagsapi.com/ML/flat/64.png"
+	},
+	{
+		"country": "Malta",
+		"2code": "MT",
+		"3code": "MLT",
+		"id": 470,
+		"flag": "https://flagsapi.com/MT/flat/64.png"
+	},
+	{
+		"country": "Marshall Islands (the)",
+		"2code": "MH",
+		"3code": "MHL",
+		"id": 584,
+		"flag": "https://flagsapi.com/MH/flat/64.png"
+	},
+	{
+		"country": "Martinique",
+		"2code": "MQ",
+		"3code": "MTQ",
+		"id": 474,
+		"flag": "https://flagsapi.com/MQ/flat/64.png"
+	},
+	{
+		"country": "Mauritania",
+		"2code": "MR",
+		"3code": "MRT",
+		"id": 478,
+		"flag": "https://flagsapi.com/MR/flat/64.png"
+	},
+	{
+		"country": "Mauritius",
+		"2code": "MU",
+		"3code": "MUS",
+		"id": 480,
+		"flag": "https://flagsapi.com/MU/flat/64.png"
+	},
+	{
+		"country": "Mayotte",
+		"2code": "YT",
+		"3code": "MYT",
+		"id": 175,
+		"flag": "https://flagsapi.com/YT/flat/64.png"
+	},
+	{
+		"country": "Mexico",
+		"2code": "MX",
+		"3code": "MEX",
+		"id": 484,
+		"flag": "https://flagsapi.com/MX/flat/64.png"
+	},
+	{
+		"country": "Micronesia (Federated States of)",
+		"2code": "FM",
+		"3code": "FSM",
+		"id": 583,
+		"flag": "https://flagsapi.com/FM/flat/64.png"
+	},
+	{
+		"country": "Moldova (the Republic of)",
+		"2code": "MD",
+		"3code": "MDA",
+		"id": 498,
+		"flag": "https://flagsapi.com/MD/flat/64.png"
+	},
+	{
+		"country": "Monaco",
+		"2code": "MC",
+		"3code": "MCO",
+		"id": 492,
+		"flag": "https://flagsapi.com/MC/flat/64.png"
+	},
+	{
+		"country": "Mongolia",
+		"2code": "MN",
+		"3code": "MNG",
+		"id": 496,
+		"flag": "https://flagsapi.com/MN/flat/64.png"
+	},
+	{
+		"country": "Montenegro",
+		"2code": "ME",
+		"3code": "MNE",
+		"id": 499,
+		"flag": "https://flagsapi.com/ME/flat/64.png"
+	},
+	{
+		"country": "Montserrat",
+		"2code": "MS",
+		"3code": "MSR",
+		"id": 500,
+		"flag": "https://flagsapi.com/MS/flat/64.png"
+	},
+	{
+		"country": "Morocco",
+		"2code": "MA",
+		"3code": "MAR",
+		"id": 504,
+		"flag": "https://flagsapi.com/MA/flat/64.png"
+	},
+	{
+		"country": "Mozambique",
+		"2code": "MZ",
+		"3code": "MOZ",
+		"id": 508,
+		"flag": "https://flagsapi.com/MZ/flat/64.png"
+	},
+	{
+		"country": "Myanmar",
+		"2code": "MM",
+		"3code": "MMR",
+		"id": 104,
+		"flag": "https://flagsapi.com/MM/flat/64.png"
+	},
+	{
+		"country": "Namibia",
+		"2code": "NA",
+		"3code": "NAM",
+		"id": 516,
+		"flag": "https://flagsapi.com/NA/flat/64.png"
+	},
+	{
+		"country": "Nauru",
+		"2code": "NR",
+		"3code": "NRU",
+		"id": 520,
+		"flag": "https://flagsapi.com/NR/flat/64.png"
+	},
+	{
+		"country": "Nepal",
+		"2code": "NP",
+		"3code": "NPL",
+		"id": 524,
+		"flag": "https://flagsapi.com/NP/flat/64.png"
+	},
+	{
+		"country": "Netherlands (the)",
+		"2code": "NL",
+		"3code": "NLD",
+		"id": 528,
+		"flag": "https://flagsapi.com/NL/flat/64.png"
+	},
+	{
+		"country": "Netherlands (the)",
+		"2code": "NL",
+		"3code": "NED",
+		"id": 528,
+		"flag": "https://flagsapi.com/NL/flat/64.png"
+	},
+	{
+		"country": "New Caledonia",
+		"2code": "NC",
+		"3code": "NCL",
+		"id": 540,
+		"flag": "https://flagsapi.com/NC/flat/64.png"
+	},
+	{
+		"country": "New Zealand",
+		"2code": "NZ",
+		"3code": "NZL",
+		"id": 554,
+		"flag": "https://flagsapi.com/NZ/flat/64.png"
+	},
+	{
+		"country": "Nicaragua",
+		"2code": "NI",
+		"3code": "NIC",
+		"id": 558,
+		"flag": "https://flagsapi.com/NI/flat/64.png"
+	},
+	{
+		"country": "Niger (the)",
+		"2code": "NE",
+		"3code": "NER",
+		"id": 562,
+		"flag": "https://flagsapi.com/NE/flat/64.png"
+	},
+	{
+		"country": "Nigeria",
+		"2code": "NG",
+		"3code": "NGA",
+		"id": 566,
+		"flag": "https://flagsapi.com/NG/flat/64.png"
+	},
+	{
+		"country": "Niue",
+		"2code": "NU",
+		"3code": "NIU",
+		"id": 570,
+		"flag": "https://flagsapi.com/NU/flat/64.png"
+	},
+	{
+		"country": "Norfolk Island",
+		"2code": "NF",
+		"3code": "NFK",
+		"id": 574,
+		"flag": "https://flagsapi.com/NF/flat/64.png"
+	},
+	{
+		"country": "Northern Mariana Islands (the)",
+		"2code": "MP",
+		"3code": "MNP",
+		"id": 580,
+		"flag": "https://flagsapi.com/MP/flat/64.png"
+	},
+	{
+		"country": "Norway",
+		"2code": "NO",
+		"3code": "NOR",
+		"id": 578,
+		"flag": "https://flagsapi.com/NO/flat/64.png"
+	},
+	{
+		"country": "Oman",
+		"2code": "OM",
+		"3code": "OMN",
+		"id": 512,
+		"flag": "https://flagsapi.com/OM/flat/64.png"
+	},
+	{
+		"country": "Pakistan",
+		"2code": "PK",
+		"3code": "PAK",
+		"id": 586,
+		"flag": "https://flagsapi.com/PK/flat/64.png"
+	},
+	{
+		"country": "Palau",
+		"2code": "PW",
+		"3code": "PLW",
+		"id": 585,
+		"flag": "https://flagsapi.com/PW/flat/64.png"
+	},
+	{
+		"country": "Palestine, State of",
+		"2code": "PS",
+		"3code": "PSE",
+		"id": 275,
+		"flag": "https://flagsapi.com/PS/flat/64.png"
+	},
+	{
+		"country": "Panama",
+		"2code": "PA",
+		"3code": "PAN",
+		"id": 591,
+		"flag": "https://flagsapi.com/PA/flat/64.png"
+	},
+	{
+		"country": "Papua New Guinea",
+		"2code": "PG",
+		"3code": "PNG",
+		"id": 598,
+		"flag": "https://flagsapi.com/PG/flat/64.png"
+	},
+	{
+		"country": "Paraguay",
+		"2code": "PY",
+		"3code": "PRY",
+		"id": 600,
+		"flag": "https://flagsapi.com/PY/flat/64.png"
+	},
+	{
+		"country": "Peru",
+		"2code": "PE",
+		"3code": "PER",
+		"id": 604,
+		"flag": "https://flagsapi.com/PE/flat/64.png"
+	},
+	{
+		"country": "Philippines (the)",
+		"2code": "PH",
+		"3code": "PHL",
+		"id": 608,
+		"flag": "https://flagsapi.com/PH/flat/64.png"
+	},
+	{
+		"country": "Pitcairn",
+		"2code": "PN",
+		"3code": "PCN",
+		"id": 612,
+		"flag": "https://flagsapi.com/PN/flat/64.png"
+	},
+	{
+		"country": "Poland",
+		"2code": "PL",
+		"3code": "POL",
+		"id": 616,
+		"flag": "https://flagsapi.com/PL/flat/64.png"
+	},
+	{
+		"country": "Portugal",
+		"2code": "PT",
+		"3code": "PRT",
+		"id": 620,
+		"flag": "https://flagsapi.com/PT/flat/64.png"
+	},
+	{
+		"country": "Portugal",
+		"2code": "PT",
+		"3code": "POR",
+		"id": 620,
+		"flag": "https://flagsapi.com/PT/flat/64.png"
+	},
+	{
+		"country": "Puerto Rico",
+		"2code": "PR",
+		"3code": "PRI",
+		"id": 630,
+		"flag": "https://flagsapi.com/PR/flat/64.png"
+	},
+	{
+		"country": "Qatar",
+		"2code": "QA",
+		"3code": "QAT",
+		"id": 634,
+		"flag": "https://flagsapi.com/QA/flat/64.png"
+	},
+	{
+		"country": "Republic of North Macedonia",
+		"2code": "MK",
+		"3code": "MKD",
+		"id": 807,
+		"flag": "https://flagsapi.com/MK/flat/64.png"
+	},
+	{
+		"country": "Romania",
+		"2code": "RO",
+		"3code": "ROU",
+		"id": 642,
+		"flag": "https://flagsapi.com/RO/flat/64.png"
+	},
+	{
+		"country": "Russian Federation (the)",
+		"2code": "RU",
+		"3code": "RUS",
+		"id": 643,
+		"flag": "https://flagsapi.com/RU/flat/64.png"
+	},
+	{
+		"country": "Rwanda",
+		"2code": "RW",
+		"3code": "RWA",
+		"id": 646,
+		"flag": "https://flagsapi.com/RW/flat/64.png"
+	},
+	{
+		"country": "Réunion",
+		"2code": "RE",
+		"3code": "REU",
+		"id": 638,
+		"flag": "https://flagsapi.com/RE/flat/64.png"
+	},
+	{
+		"country": "Saint Barthélemy",
+		"2code": "BL",
+		"3code": "BLM",
+		"id": 652,
+		"flag": "https://flagsapi.com/BL/flat/64.png"
+	},
+	{
+		"country": "Saint Helena, Ascension and Tristan da Cunha",
+		"2code": "SH",
+		"3code": "SHN",
+		"id": 654,
+		"flag": "https://flagsapi.com/SH/flat/64.png"
+	},
+	{
+		"country": "Saint Kitts and Nevis",
+		"2code": "KN",
+		"3code": "KNA",
+		"id": 659,
+		"flag": "https://flagsapi.com/KN/flat/64.png"
+	},
+	{
+		"country": "Saint Lucia",
+		"2code": "LC",
+		"3code": "LCA",
+		"id": 662,
+		"flag": "https://flagsapi.com/LC/flat/64.png"
+	},
+	{
+		"country": "Saint Martin (French part)",
+		"2code": "MF",
+		"3code": "MAF",
+		"id": 663,
+		"flag": "https://flagsapi.com/MF/flat/64.png"
+	},
+	{
+		"country": "Saint Pierre and Miquelon",
+		"2code": "PM",
+		"3code": "SPM",
+		"id": 666,
+		"flag": "https://flagsapi.com/PM/flat/64.png"
+	},
+	{
+		"country": "Saint Vincent and the Grenadines",
+		"2code": "VC",
+		"3code": "VCT",
+		"id": 670,
+		"flag": "https://flagsapi.com/VC/flat/64.png"
+	},
+	{
+		"country": "Samoa",
+		"2code": "WS",
+		"3code": "WSM",
+		"id": 882,
+		"flag": "https://flagsapi.com/WS/flat/64.png"
+	},
+	{
+		"country": "San Marino",
+		"2code": "SM",
+		"3code": "SMR",
+		"id": 674,
+		"flag": "https://flagsapi.com/SM/flat/64.png"
+	},
+	{
+		"country": "Sao Tome and Principe",
+		"2code": "ST",
+		"3code": "STP",
+		"id": 678,
+		"flag": "https://flagsapi.com/ST/flat/64.png"
+	},
+	{
+		"country": "Saudi Arabia",
+		"2code": "SA",
+		"3code": "SAU",
+		"id": 682,
+		"flag": "https://flagsapi.com/SA/flat/64.png"
+	},
+	{
+		"country": "Senegal",
+		"2code": "SN",
+		"3code": "SEN",
+		"id": 686,
+		"flag": "https://flagsapi.com/SN/flat/64.png"
+	},
+	{
+		"country": "Serbia",
+		"2code": "RS",
+		"3code": "SRB",
+		"id": 688,
+		"flag": "https://flagsapi.com/RS/flat/64.png"
+	},
+	{
+		"country": "Seychelles",
+		"2code": "SC",
+		"3code": "SYC",
+		"id": 690,
+		"flag": "https://flagsapi.com/SC/flat/64.png"
+	},
+	{
+		"country": "Sierra Leone",
+		"2code": "SL",
+		"3code": "SLE",
+		"id": 694,
+		"flag": "https://flagsapi.com/SL/flat/64.png"
+	},
+	{
+		"country": "Singapore",
+		"2code": "SG",
+		"3code": "SGP",
+		"id": 702,
+		"flag": "https://flagsapi.com/SG/flat/64.png"
+	},
+	{
+		"country": "Sint Maarten (Dutch part)",
+		"2code": "SX",
+		"3code": "SXM",
+		"id": 534,
+		"flag": "https://flagsapi.com/SX/flat/64.png"
+	},
+	{
+		"country": "Slovakia",
+		"2code": "SK",
+		"3code": "SVK",
+		"id": 703,
+		"flag": "https://flagsapi.com/SK/flat/64.png"
+	},
+	{
+		"country": "Slovenia",
+		"2code": "SI",
+		"3code": "SVN",
+		"id": 705,
+		"flag": "https://flagsapi.com/SI/flat/64.png"
+	},
+	{
+		"country": "Solomon Islands",
+		"2code": "SB",
+		"3code": "SLB",
+		"id": 90,
+		"flag": "https://flagsapi.com/SB/flat/64.png"
+	},
+	{
+		"country": "Somalia",
+		"2code": "SO",
+		"3code": "SOM",
+		"id": 706,
+		"flag": "https://flagsapi.com/SO/flat/64.png"
+	},
+	{
+		"country": "South Africa",
+		"2code": "ZA",
+		"3code": "ZAF",
+		"id": 710,
+		"flag": "https://flagsapi.com/ZA/flat/64.png"
+	},
+	{
+		"country": "South Africa",
+		"2code": "ZA",
+		"3code": "RSA",
+		"id": 710,
+		"flag": "https://flagsapi.com/ZA/flat/64.png"
+	},
+	{
+		"country": "South Georgia and the South Sandwich Islands",
+		"2code": "GS",
+		"3code": "SGS",
+		"id": 239,
+		"flag": "https://flagsapi.com/GS/flat/64.png"
+	},
+	{
+		"country": "South Sudan",
+		"2code": "SS",
+		"3code": "SSD",
+		"id": 728,
+		"flag": "https://flagsapi.com/SS/flat/64.png"
+	},
+	{
+		"country": "Spain",
+		"2code": "ES",
+		"3code": "ESP",
+		"id": 724,
+		"flag": "https://flagsapi.com/ES/flat/64.png"
+	},
+	{
+		"country": "Sri Lanka",
+		"2code": "LK",
+		"3code": "LKA",
+		"id": 144,
+		"flag": "https://flagsapi.com/LK/flat/64.png"
+	},
+	{
+		"country": "Sudan (the)",
+		"2code": "SD",
+		"3code": "SDN",
+		"id": 729,
+		"flag": "https://flagsapi.com/SD/flat/64.png"
+	},
+	{
+		"country": "Suriname",
+		"2code": "SR",
+		"3code": "SUR",
+		"id": 740,
+		"flag": "https://flagsapi.com/SR/flat/64.png"
+	},
+	{
+		"country": "Svalbard and Jan Mayen",
+		"2code": "SJ",
+		"3code": "SJM",
+		"id": 744,
+		"flag": "https://flagsapi.com/SJ/flat/64.png"
+	},
+	{
+		"country": "Sweden",
+		"2code": "SE",
+		"3code": "SWE",
+		"id": 752,
+		"flag": "https://flagsapi.com/SE/flat/64.png"
+	},
+	{
+		"country": "Switzerland",
+		"2code": "CH",
+		"3code": "CHE",
+		"id": 756,
+		"flag": "https://flagsapi.com/CH/flat/64.png"
+	},
+	{
+		"country": "Syrian Arab Republic",
+		"2code": "SY",
+		"3code": "SYR",
+		"id": 760,
+		"flag": "https://flagsapi.com/SY/flat/64.png"
+	},
+	{
+		"country": "Taiwan (Province of China)",
+		"2code": "TW",
+		"3code": "TWN",
+		"id": 158,
+		"flag": "https://flagsapi.com/TW/flat/64.png"
+	},
+	{
+		"country": "Tajikistan",
+		"2code": "TJ",
+		"3code": "TJK",
+		"id": 762,
+		"flag": "https://flagsapi.com/TJ/flat/64.png"
+	},
+	{
+		"country": "Tanzania, United Republic of",
+		"2code": "TZ",
+		"3code": "TZA",
+		"id": 834,
+		"flag": "https://flagsapi.com/TZ/flat/64.png"
+	},
+	{
+		"country": "Thailand",
+		"2code": "TH",
+		"3code": "THA",
+		"id": 764,
+		"flag": "https://flagsapi.com/TH/flat/64.png"
+	},
+	{
+		"country": "Timor-Leste",
+		"2code": "TL",
+		"3code": "TLS",
+		"id": 626,
+		"flag": "https://flagsapi.com/TL/flat/64.png"
+	},
+	{
+		"country": "Togo",
+		"2code": "TG",
+		"3code": "TGO",
+		"id": 768,
+		"flag": "https://flagsapi.com/TG/flat/64.png"
+	},
+	{
+		"country": "Tokelau",
+		"2code": "TK",
+		"3code": "TKL",
+		"id": 772,
+		"flag": "https://flagsapi.com/TK/flat/64.png"
+	},
+	{
+		"country": "Tonga",
+		"2code": "TO",
+		"3code": "TON",
+		"id": 776,
+		"flag": "https://flagsapi.com/TO/flat/64.png"
+	},
+	{
+		"country": "Trinidad and Tobago",
+		"2code": "TT",
+		"3code": "TTO",
+		"id": 780,
+		"flag": "https://flagsapi.com/TT/flat/64.png"
+	},
+	{
+		"country": "Tunisia",
+		"2code": "TN",
+		"3code": "TUN",
+		"id": 788,
+		"flag": "https://flagsapi.com/TN/flat/64.png"
+	},
+	{
+		"country": "Turkey",
+		"2code": "TR",
+		"3code": "TUR",
+		"id": 792,
+		"flag": "https://flagsapi.com/TR/flat/64.png"
+	},
+	{
+		"country": "Turkmenistan",
+		"2code": "TM",
+		"3code": "TKM",
+		"id": 795,
+		"flag": "https://flagsapi.com/TM/flat/64.png"
+	},
+	{
+		"country": "Turks and Caicos Islands (the)",
+		"2code": "TC",
+		"3code": "TCA",
+		"id": 796,
+		"flag": "https://flagsapi.com/TC/flat/64.png"
+	},
+	{
+		"country": "Tuvalu",
+		"2code": "TV",
+		"3code": "TUV",
+		"id": 798,
+		"flag": "https://flagsapi.com/TV/flat/64.png"
+	},
+	{
+		"country": "Uganda",
+		"2code": "UG",
+		"3code": "UGA",
+		"id": 800,
+		"flag": "https://flagsapi.com/UG/flat/64.png"
+	},
+	{
+		"country": "Ukraine",
+		"2code": "UA",
+		"3code": "UKR",
+		"id": 804,
+		"flag": "https://flagsapi.com/UA/flat/64.png"
+	},
+	{
+		"country": "United Arab Emirates (the)",
+		"2code": "AE",
+		"3code": "ARE",
+		"id": 784,
+		"flag": "https://flagsapi.com/AE/flat/64.png"
+	},
+	{
+		"country": "United Kingdom of Great Britain and Northern Ireland (the)",
+		"2code": "GB",
+		"3code": "GBR",
+		"id": 826,
+		"flag": "https://flagsapi.com/GB/flat/64.png"
+	},
+	{
+		"country": "United Kingdom of Great Britain and Northern Ireland (the)",
+		"2code": "GB",
+		"3code": "ENG",
+		"id": 826,
+		"flag": "https://flagsapi.com/GB/flat/64.png"
+	},
+	{
+		"country": "Wales",
+		"2code": "WL",
+		"3code": "WAL",
+		"id": 826,
+		"flag": "https://www.flaginstitute.org/wp/wp-content/uploads/flags/UNKG0102.png"
+	},
+	{
+		"country": "Scotland",
+		"2code": "SC",
+		"3code": "SCO",
+		"id": 826,
+		"flag": "https://www.flaginstitute.org/wp/wp-content/uploads/flags/UNKG0101.png"
+	},
+	{
+		"country": "United States Minor Outlying Islands (the)",
+		"2code": "UM",
+		"3code": "UMI",
+		"id": 581,
+		"flag": "https://flagsapi.com/UM/flat/64.png"
+	},
+	{
+		"country": "United States of America (the)",
+		"2code": "US",
+		"3code": "USA",
+		"id": 840,
+		"flag": "https://flagsapi.com/US/flat/64.png"
+	},
+	{
+		"country": "Uruguay",
+		"2code": "UY",
+		"3code": "URY",
+		"id": 858,
+		"flag": "https://flagsapi.com/UY/flat/64.png"
+	},
+	{
+		"country": "Uzbekistan",
+		"2code": "UZ",
+		"3code": "UZB",
+		"id": 860,
+		"flag": "https://flagsapi.com/UZ/flat/64.png"
+	},
+	{
+		"country": "Vanuatu",
+		"2code": "VU",
+		"3code": "VUT",
+		"id": 548,
+		"flag": "https://flagsapi.com/VU/flat/64.png"
+	},
+	{
+		"country": "Venezuela (Bolivarian Republic of)",
+		"2code": "VE",
+		"3code": "VEN",
+		"id": 862,
+		"flag": "https://flagsapi.com/VE/flat/64.png"
+	},
+	{
+		"country": "Viet Nam",
+		"2code": "VN",
+		"3code": "VNM",
+		"id": 704,
+		"flag": "https://flagsapi.com/VN/flat/64.png"
+	},
+	{
+		"country": "Virgin Islands (British)",
+		"2code": "VG",
+		"3code": "VGB",
+		"id": 92,
+		"flag": "https://flagsapi.com/VG/flat/64.png"
+	},
+	{
+		"country": "Virgin Islands (U.S.)",
+		"2code": "VI",
+		"3code": "VIR",
+		"id": 850,
+		"flag": "https://flagsapi.com/VI/flat/64.png"
+	},
+	{
+		"country": "Wallis and Futuna",
+		"2code": "WF",
+		"3code": "WLF",
+		"id": 876,
+		"flag": "https://flagsapi.com/WF/flat/64.png"
+	},
+	{
+		"country": "Western Sahara",
+		"2code": "EH",
+		"3code": "ESH",
+		"id": 732,
+		"flag": "https://flagsapi.com/EH/flat/64.png"
+	},
+	{
+		"country": "Yemen",
+		"2code": "YE",
+		"3code": "YEM",
+		"id": 887,
+		"flag": "https://flagsapi.com/YE/flat/64.png"
+	},
+	{
+		"country": "Zambia",
+		"2code": "ZM",
+		"3code": "ZMB",
+		"id": 894,
+		"flag": "https://flagsapi.com/ZM/flat/64.png"
+	},
+	{
+		"country": "Zimbabwe",
+		"2code": "ZW",
+		"3code": "ZWE",
+		"id": 716,
+		"flag": "https://flagsapi.com/ZW/flat/64.png"
+	},
+	{
+		"country": "Åland Islands",
+		"2code": "AX",
+		"3code": "ALA",
+		"id": 248,
+		"flag": "https://flagsapi.com/AX/flat/64.png"
+	}
+]
