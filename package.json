@@ -1,17 +1,24 @@
 {
   "name": "mmm-rugby",
-  "version": "1.0.0",
-  "description": "Rugby module for MagicMirror",
+  "version": "1.0.1",
+  "description": "Rugby module for MagicMirror²",
   "main": "MMM-Rugby.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumblebaj/MMM-Rugby.git"
   },
   "keywords": [
     "Rugby",
     "MagicMirror",
     "Sport"
   ],
-  "author": "",
+  "author": "B Mumble",
+  "bugs": {
+    "url": "https://github.com/mumblebaj/MMM-Rugby/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "luxon": "^3.4.4",
