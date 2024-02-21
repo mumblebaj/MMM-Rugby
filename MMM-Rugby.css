@@ -1,0 +1,33 @@
+.MMM-Rugbylogo {
+    position: relative;
+    top: 2px;
+    background-color: transparent;
+  }
+  
+  .MMM-RugbyColon {
+    width: 2px;
+    text-align: center;
+  }
+  
+  .MMM-RugbyDetails {
+    position: relative;
+    height: 2ch;
+  }
+  
+  .MMM-RugbyBorder td {
+      border-bottom: 1px solid white;
+  }
+  
+  .MMM-RugbyTable {
+      font-size: 15px;
+      overflow: hidden;
+      display: inline-block;
+      white-space: nowrap;
+  }
+  
+  .MMM-RugbyComp {
+      font-size: 13px;
+      overflow: hidden;
+      display: inline-block;
+      white-space: nowrap;
+  }
