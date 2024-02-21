@@ -70,7 +70,7 @@ The following properties can be configured:
 | ---------------------------- | -----------
 | `updateInterval`             | Intrval to refresh Data <br> **Default value:** `1000*60*60*24`. One Day <br> Best to set to a Weekly refresh rate.
 | `rotateInterval`             | The Interval to rotate between the tables <br> **Default Value:** `60000` 1 minute
-| `sport`                      | The Rugby League to get data for <br> **Possible values:** <br> `wrs`: Woman's Sevens Series 2024 <br> `mrs`: Mens Sevens Series 2024 <br> `jmu`: U20 Six Nations 2024 <br> `mru`: Includes a number of leagues <br> Six Nations 2024 <br> Rugby Europe International Chamionship 2024 <br> Men's Internationals 2024 <br> Rugby Europe Trophy 2024 <br> Rugby Europe Conference 2024 <br> Autumn Nations Series 2024 <br> The Rugby Championship 2024
+| `sport`                      | The Rugby League to get data for <br> **Possible values:** <br> `wrs`: Woman's Sevens Series 2024 <br> `mrs`: Mens Sevens Series 2024 <br> `jmu`: U20 Six Nations 2024 <br> `mru`: Includes a number of leagues <br> - Six Nations 2024 <br> Rugby Europe International Chamionship 2024 <br> Men's Internationals 2024 <br> Rugby Europe Trophy 2024 <br> Rugby Europe Conference 2024 <br> Autumn Nations Series 2024 <br> The Rugby Championship 2024
 | `rankingLimit`               | The Number of Rankings to return for the World Rankings <br> **Default value:** `10`
 | `matchesLimit`               | The number of matches to return. <br> **Default value:** `10`
 | `matchesOlderThan`           | Will return only matches New than this specified number of days, i.e. if set to 7 will return matches older than current date - 7 and fill the number of matchesLimit with upcoming matches. <br> **Default value:** `7`
