@@ -1,6 +1,6 @@
 {
   "name": "mmm-rugby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rugby module for MagicMirror²",
   "main": "MMM-Rugby.js",
   "scripts": {

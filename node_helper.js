@@ -6,40 +6,57 @@ var {
 } = require('luxon')
 
 var startofMonth = DateTime.local(DateTime.now()).startOf('month').toISODate();
-var endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
-const country_flags = `${__dirname}/country_flags.json`
-const countryFlags = JSON.parse(fs.readFileSync(country_flags, 'utf8'));
 
-var rankingsUrl = 'https://api.wr-rims-prod.pulselive.com/rugby/v3/rankings/mru?language=en'
+var endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
+
+const country_flags = `${__dirname}/country_flags.json`
+
+const countryFlags = JSON.parse(fs.readFileSync(country_flags, 'utf8'));
 
 module.exports = NodeHelper.create({
   requiresVersion: '2.26.0',
 
   start: function () {
-    console.log('Starting node helper for ' + this.name)
+    console.log('Starting node helper for: ' + this.name)
   },
 
   getrugbyMatchData: async function (payload) {
+
     var startofMonth = DateTime.local(DateTime.now()).startOf('month').toISODate();
+
     var endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
+
+    var league = payload.league
+
+    var filteredData = [];
 
     let url = `https://api.wr-rims-prod.pulselive.com/rugby/v3/match?startDate=${startofMonth}&endDate=${endofMonth}&sort=asc&pageSize=100&page=0&sport=` + payload.sport
 
+    // Get the match data
     const response = await fetch(url, {
       method: 'GET',
 
     })
     const data = await response.json();
 
+    if (payload.competitions) {
+      specificCompetitions = payload.competitions;
+      const filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competion));
+    } else {
+      filteredData = data.content;
+    }
+
     let rugbymatchesData = [];
+
     const sevenDaysAgo = DateTime.now().minus({
       days: payload.matchesOlderThan
     });
 
-    console.log("Defined Sport Name: ", CompetitionType)
-    data.content.forEach(dataEvent => {
+    // Populate the match data array
+    filteredData.forEach(dataEvent => {
 
       let matchDateTime = DateTime.fromMillis(dataEvent.time.millis);
+
       if (matchDateTime < sevenDaysAgo) {
         return; // Skip this dataEvent
       }
@@ -48,10 +65,15 @@ module.exports = NodeHelper.create({
       }
 
       var startTime = dataEvent.events[0] ? dataEvent.events[0].start.millis : 0
+
       var endTime = dataEvent.events[0] ? dataEvent.events[0].start.millis : 0
+
       let start1 = DateTime.fromMillis(dataEvent.time.millis).toLocaleString(DateTime.DATETIME_MED);
+
       let eventStart = DateTime.fromMillis(dataEvent.time.millis).toLocaleString(DateTime.TIME_24_SIMPLE);
+
       let team1Abbreviation = dataEvent.teams[0].abbreviation;
+
       let team2Abbreviation = dataEvent.teams[1].abbreviation;
 
       // Find the flag URL for team 1
@@ -89,18 +111,25 @@ module.exports = NodeHelper.create({
   },
 
   getrankingsData: async function (payload) {
+
     let url = 'https://api.wr-rims-prod.pulselive.com/rugby/v3/rankings/mru?language=en'
+
     const response = await fetch(url, {
       method: 'GET',
     })
+
     const data = await response.json();
+
     let rankingsData = [];
+
     data.entries.forEach(dataEvent => {
 
       if (rankingsData.length >= payload.rankingLimit) {
         return;
       }
+
       let countryAbbreviation = dataEvent.team.countryCode;
+
       let countryFlag = countryFlags.find(country => country['3code'] === countryAbbreviation)?.flag || '';
 
       rankingsData.push({

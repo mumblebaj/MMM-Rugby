@@ -26,6 +26,9 @@ THe module will always return the World Rankings by default and the selected Rug
 ### Junior Rugby Series
 ![Example](images/screenshot-5.png)
 
+### Filtered by Leagues
+![Example](images/screenshot-6.png)
+
 ## Dependencies
 - "luxon": "^3.4.4",
 - "node-fetch": "^2.6.1"
@@ -74,6 +77,7 @@ The following properties can be configured:
 | `rankingLimit`               | The Number of Rankings to return for the World Rankings <br> **Default value:** `10`
 | `matchesLimit`               | The number of matches to return. <br> **Default value:** `10`
 | `matchesOlderThan`           | Will return only matches New than this specified number of days, i.e. if set to 7 will return matches older than current date - 7 and fill the number of matchesLimit with upcoming matches. <br> **Default value:** `7`
+| `competition`                | An array of leagues can now be selected to filter the Mens Rugby Union by. <br> **Example** <br> competition: ["The Rugby Championship 2024","Rugby Europe Conference 2024", "Six Nations 2024"] <br><br> If option is not selected then all Leagues will be returned.
 
 ## Updating
 
@@ -87,7 +91,11 @@ npm install
 
 ## Changes
 
+### v1.0.2
+
+- Add an option to specify specific leagues when selection **mru**
+
 ## Future Enhancements
-- Option to select specific MRU Leagues only
+- ~~Option to select specific MRU Leagues only~~
 - Enhance Display of the Matches table.
 
