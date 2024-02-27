@@ -5,7 +5,20 @@ Module.register("MMM-Rugby", {
         rotateInterval: 60000,
         sport: "mru",
         rankingLimit: 10,
-        matchesLimit: 10
+        matchesLimit: 10,
+        competitions: [],
+        collectionType: "apiSport", // free
+        apiSports: {
+            apiSportStandingLeagueId: 16,
+            apiSportSeason: 2023,
+            apiSportKey: "your-api-key",
+            apiSportTZ: "Africa/Johannesburg",
+            numberofGamesToDisplay: 10,
+            apiSportsNumRankings: 10,
+            apiSportDaysPast: 7,
+            apiSportsDaysFuture: 14
+            // add games requirements league id for games to fetch
+        }
     },
 
     getStyles: function () {
@@ -25,8 +38,13 @@ Module.register("MMM-Rugby", {
         this.dataSet2 = [];
         this.currentTable = 1;
 
-        this.getrankingData();
-        this.getmatchData();
+        if (this.payload.collectionType === "free") {
+            this.getrankingData();
+            this.getmatchData();
+        } else if( this.payload.collectionType === "apiSport") {
+            this.getapiSportData();
+        }
+        
 
         setInterval(function () {
             self.rotateTables();
@@ -39,6 +57,10 @@ Module.register("MMM-Rugby", {
 
     getmatchData: function () {
         this.sendSocketNotification("GET_MATCH_DATA", this.config)
+    },
+
+    getapiSportData: function () {
+        this.sendSocketNotification("GET_API_SPORT_DATA", this.config)
     },
 
     scheduleUpdate: function (delay) {
