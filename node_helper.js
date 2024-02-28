@@ -1,6 +1,7 @@
 var NodeHelper = require('node_helper')
 const fetch = require('node-fetch');
 const fs = require('fs');
+const os  = require('os');
 var {
   DateTime
 } = require('luxon')
