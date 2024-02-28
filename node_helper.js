@@ -261,7 +261,7 @@ module.exports = NodeHelper.create({
    socketNotificationReceived: function (notification, payload) {
     switch (notification) {
       case "GET_RANKING_DATA":
-        this.getRankingData(payload);
+        this.getRankingsData(payload);
         break;
       case "GET_MATCH_DATA":
         this.getrugbyMatchData(payload);
