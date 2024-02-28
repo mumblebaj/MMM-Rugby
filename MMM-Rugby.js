@@ -76,15 +76,15 @@ Module.register("MMM-Rugby", {
 
     socketNotificationReceived: function (notification, payload) {
         if (notification === "RUGBY_RANKING_DATA") {
-            this.dataSets[payload.collectionType].rankingData = payload.data;
+            this.dataSets[payload.collectionType].rankingData = payload;
         } 
         if (notification === "RUGBY_MATCH_DATA") {
-            this.dataSets[payload.collectionType].matchData = payload.data;
+            this.dataSets[payload.collectionType].matchData = payload;
         }
         if (notification === "API_SPORT_GAME_DATA") {
-            this.dataSets[payload.collectionType].matchData = payload.data;
+            this.dataSets[payload.collectionType].matchData = payload;
         } else if (notification === "API_SPORT_STANDING_DATA") {
-            this.dataSets[payload.collectionType].rankingData = payload.data;
+            this.dataSets[payload.collectionType].rankingData = payload;
         }
         this.updateDom();
 
