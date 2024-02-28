@@ -34,21 +34,26 @@ Module.register("MMM-Rugby", {
         Log.info(`Starting module: ${this.name}`);
         this.rankingData = null;
         this.matchData = null;
-        this.dataSet1 = [];
-        this.dataSet2 = [];
-        this.currentTable = 1;
+        this.dataSets = {
+            free: { rankingData: [], matchData: [] },
+            apiSport: { rankingData: [], matchData: [] }
+        };
+        this.currentTables = {
+            free: 1,
+            apiSport: 3
+        };
 
-        if (this.payload.collectionType === "free") {
-            this.getrankingData();
-            this.getmatchData();
-        } else if( this.payload.collectionType === "apiSport") {
-            this.getapiSportData();
+        this.getData();
+        this.scheduleUpdate();
+    },
+
+    getData: function () {
+        if (this.config.collectionType === "free") {
+            this.getRankingData();
+            this.getMatchData();
+        } else if (this.config.collectionType === "apiSport") {
+            this.getApiSportData();
         }
-        
-
-        setInterval(function () {
-            self.rotateTables();
-        }, this.config.rotateInterval);
     },
 
     getrankingData: function () {
@@ -59,53 +64,130 @@ Module.register("MMM-Rugby", {
         this.sendSocketNotification("GET_MATCH_DATA", this.config)
     },
 
-    getapiSportData: function () {
+    getApiSportData: function () {
         this.sendSocketNotification("GET_API_SPORT_DATA", this.config)
     },
 
-    scheduleUpdate: function (delay) {
-        var nextUpdate = this.config.updateInterval;
-        if (typeof delay != "undefined" && delay >= 0) {
-            nextUpdate = delay;
-        }
-
-        var self = this;
-        setInterval(function () {
-            self.getData()
-        }, nextUpdate)
+    scheduleUpdate: function () {
+        setInterval(() => {
+            this.getData();
+        }, this.config.updateInterval);
     },
 
     socketNotificationReceived: function (notification, payload) {
-        var self = this;
-
         if (notification === "RUGBY_RANKING_DATA") {
-            this.dataSet1 = payload;
-            this.table1 = this.createTable1(this.dataSet1);
-            self.updateDom();
-        }
-
+            this.dataSets[payload.collectionType].rankingData = payload.data;
+        } 
         if (notification === "RUGBY_MATCH_DATA") {
-            this.dataSet2 = payload;
-            this.table2 = this.createTable2(this.dataSet2);
-            self.updateDom();
+            this.dataSets[payload.collectionType].matchData = payload.data;
         }
+        if (notification === "API_SPORT_GAME_DATA") {
+            this.dataSets[payload.collectionType].matchData = payload.data;
+        } else if (notification === "API_SPORT_STANDING_DATA") {
+            this.dataSets[payload.collectionType].rankingData = payload.data;
+        }
+        this.updateDom();
 
     },
 
     rotateTables: function () {
-        // Toggle visibility of tables
-        if (this.currentTable === 1) {
-            this.currentTable = 2;
-            this.table1.style.display = "none";
-            this.table2.style.display = "block";
-        } else {
-            this.currentTable = 1;
-            this.table1.style.display = "block";
-            this.table2.style.display = "none";
+        const currentTable = this.currrentTables[this.config.collectionType];
+        const nextTable = currentTable === 1 ? 2 : 1;
+        const table1 = document.getElementById("table1");
+        const table2 = document.getElementById("table2");
+        const table3 = document.getElementById("table3");
+        const table4 = document.getElementById("table4");
+
+        if (this.config.collectionType === "free") {
+            this.currentTables.free = nextTable;
+            table1.style.display = nextTable === 1 ? "block" : "none";
+            table2.style.display = nextTable === 2 ? "block" : "none";
+        } else if (this.config.collectionType === "apiSport") {
+            this.currentTables.apiSport = nextTable;
+            table3.style.display = nextTable === 3 ? "block" : "none";
+            table4.style.display = nextTable === 4 ? "block" : "none";
         }
     },
 
-    createTable2: function () {
+    createTable1: function (dataSet) {
+        var MMMRugbyDiv = document.createElement('div');
+        MMMRugbyDiv.classList.add('MMM-RugbyDiv');
+        var rugbyHeader = document.createElement('div')
+        rugbyHeader.className = 'medium'
+        var headerSpan = document.createElement('span')
+        headerSpan.className = 'medium'
+        headerSpan.setAttribute('align', 'right')
+        headerSpan.innerHTML = 'World Rugby Standings'
+        rugbyHeader.appendChild(headerSpan)
+        MMMRugbyDiv.appendChild(rugbyHeader)
+
+        // Create table for first set of data
+        var table1 = document.createElement("table");
+        var table1Header = document.createElement("thead");
+        var table1Body = document.createElement("tbody");
+
+        // Create header row for Position
+        var table1HeaderRow = document.createElement("tr");
+        const posHead = document.createElement('td');
+        posHead.setAttribute('align', 'center');
+        posHead.innerHTML = 'Position';
+        table1HeaderRow.appendChild(posHead)
+        // Create header row for Flag
+        const flagHead = document.createElement('td');
+        flagHead.setAttribute('align', 'center');
+        flagHead.innerHTML = 'Flag';
+        table1HeaderRow.appendChild(flagHead)
+        // Create header row for Team
+        const teamHead = document.createElement('td');
+        teamHead.setAttribute('align', 'center');
+        teamHead.innerHTML = 'Team';
+        table1HeaderRow.appendChild(teamHead)
+        // Create header row for Points
+        const pointsHead = document.createElement('td');
+        pointsHead.setAttribute('align', 'center');
+        pointsHead.innerHTML = 'Points';
+        table1HeaderRow.appendChild(pointsHead);
+
+        // Append header row to table1 header
+        table1Header.appendChild(table1HeaderRow);
+        // Populate table1 body with data
+        this.dataSet1.forEach(function (data) {
+            var row = document.createElement("tr");
+            const pos = document.createElement("td");
+            pos.setAttribute('align', 'left');
+            pos.innerHTML = data.position;
+            row.appendChild(pos);
+
+            const teamFlagCell = document.createElement('td');
+            teamFlagCell.setAttribute('align', 'left');
+            const teamFlag = document.createElement('img');
+            teamFlag.className = 'MMM-Rugbylogo';
+            teamFlag.src = data.flag
+            teamFlag.width = 20;
+            teamFlag.height = 20;
+            teamFlagCell.appendChild(teamFlag);
+            row.appendChild(teamFlagCell);
+
+            const teamName = document.createElement('td');
+            teamName.setAttribute('align', 'left');
+            teamName.innerHTML = data.name;
+            row.appendChild(teamName);
+            var teampoints = data.points.toFixed(2)
+            const teamPoints = document.createElement('td')
+            teamPoints.setAttribute('align', 'right')
+            teamPoints.innerHTML = teampoints
+            row.appendChild(teamPoints)
+            table1Body.appendChild(row);
+        });
+
+        table1.appendChild(table1Header);
+        table1.appendChild(table1Body);
+        MMMRugbyDiv.appendChild(table1)
+
+        return MMMRugbyDiv;
+    },    
+
+    createTable2: function (dataSet) {
         var MMMRugbyDiv = document.createElement('div');
         MMMRugbyDiv.classList.add('MMM-RugbyDiv');
         var rugbyHeader = document.createElement('div');
@@ -259,102 +341,32 @@ Module.register("MMM-Rugby", {
         return MMMRugbyDiv;
     },
 
-    createTable1: function () {
-        var MMMRugbyDiv = document.createElement('div');
-        MMMRugbyDiv.classList.add('MMM-RugbyDiv');
-        var rugbyHeader = document.createElement('div')
-        rugbyHeader.className = 'medium'
-        var headerSpan = document.createElement('span')
-        headerSpan.className = 'medium'
-        headerSpan.setAttribute('align', 'right')
-        headerSpan.innerHTML = 'World Rugby Standings'
-        rugbyHeader.appendChild(headerSpan)
-        MMMRugbyDiv.appendChild(rugbyHeader)
+    createTable3: function (dataSet) {
 
-        // Create table for first set of data
-        var table1 = document.createElement("table");
-        var table1Header = document.createElement("thead");
-        var table1Body = document.createElement("tbody");
+    },
 
-        // Create header row for Position
-        var table1HeaderRow = document.createElement("tr");
-        const posHead = document.createElement('td');
-        posHead.setAttribute('align', 'center');
-        posHead.innerHTML = 'Position';
-        table1HeaderRow.appendChild(posHead)
-        // Create header row for Flag
-        const flagHead = document.createElement('td');
-        flagHead.setAttribute('align', 'center');
-        flagHead.innerHTML = 'Flag';
-        table1HeaderRow.appendChild(flagHead)
-        // Create header row for Team
-        const teamHead = document.createElement('td');
-        teamHead.setAttribute('align', 'center');
-        teamHead.innerHTML = 'Team';
-        table1HeaderRow.appendChild(teamHead)
-        // Create header row for Points
-        const pointsHead = document.createElement('td');
-        pointsHead.setAttribute('align', 'center');
-        pointsHead.innerHTML = 'Points';
-        table1HeaderRow.appendChild(pointsHead);
+    createTable4: function (dataSet) {
 
-        // Append header row to table1 header
-        table1Header.appendChild(table1HeaderRow);
-        // Populate table1 body with data
-        this.dataSet1.forEach(function (data) {
-            var row = document.createElement("tr");
-            const pos = document.createElement("td");
-            pos.setAttribute('align', 'left');
-            pos.innerHTML = data.position;
-            row.appendChild(pos);
-
-            const teamFlagCell = document.createElement('td');
-            teamFlagCell.setAttribute('align', 'left');
-            const teamFlag = document.createElement('img');
-            teamFlag.className = 'MMM-Rugbylogo';
-            teamFlag.src = data.flag
-            teamFlag.width = 20;
-            teamFlag.height = 20;
-            teamFlagCell.appendChild(teamFlag);
-            row.appendChild(teamFlagCell);
-
-            const teamName = document.createElement('td');
-            teamName.setAttribute('align', 'left');
-            teamName.innerHTML = data.name;
-            row.appendChild(teamName);
-            var teampoints = data.points.toFixed(2)
-            const teamPoints = document.createElement('td')
-            teamPoints.setAttribute('align', 'right')
-            teamPoints.innerHTML = teampoints
-            row.appendChild(teamPoints)
-            table1Body.appendChild(row);
-        });
-
-        table1.appendChild(table1Header);
-        table1.appendChild(table1Body);
-        MMMRugbyDiv.appendChild(table1)
-
-        return MMMRugbyDiv;
     },
 
     getDom: function () {
         var wrapper = document.createElement("div");
+        const table1 = this.createTable1(this.dataSets.free.rankingData);
+        table1.id = "table1";
 
-        //Create tables and append wrapper
-        this.table1 = this.createTable1(this.dataSet1);
-        this.table2 = this.createTable2(this.dataSet2);
+        const table2 = this.createTable2(this.dataSets.free.matchData);
+        table2.id = "table2";
 
-        // Initially display table1, hide table2
-        if (this.currentTable === 1) {
-            this.table1.style.display = "block";
-            this.table2.style.display = "none";
-        } else {
-            this.table1.style.display = "none";
-            this.table2.style.display = "block";
-        }
+        const table3 = this.createTable3(this.dataSets.apiSport.rankingData);
+        table3.id = "table3";
 
-        wrapper.appendChild(this.table1);
-        wrapper.appendChild(this.table2);
+        const table4 = this.createTable4(this.dataSets.apiSport.matchData);
+        table4.id = "table4";
+
+        wrapper.appendChild(table1);
+        wrapper.appendChild(table2);
+        wrapper.appendChild(table3);
+        wrapper.appendChild(table4);
         return wrapper;
     }
 })
