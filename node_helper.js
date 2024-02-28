@@ -107,7 +107,7 @@ module.exports = NodeHelper.create({
     this.sendSocketNotification("RUGBY_MATCH_DATA", rugbymatchesData)
   },
 
-  getrankingsData: async function (payload) {
+  getRankingsData: async function (payload) {
     try {
       const url = 'https://api.wr-rims-prod.pulselive.com/rugby/v3/rankings/mru?language=en';
       const response = await fetch(url, { method: 'GET ' });
