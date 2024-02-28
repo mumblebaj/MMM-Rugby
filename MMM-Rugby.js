@@ -151,7 +151,7 @@ Module.register("MMM-Rugby", {
         // Append header row to table1 header
         table1Header.appendChild(table1HeaderRow);
         // Populate table1 body with data
-        this.dataSet1.forEach(function (data) {
+        dataSet.forEach(function (data) {
             var row = document.createElement("tr");
             const pos = document.createElement("td");
             pos.setAttribute('align', 'left');
@@ -223,7 +223,7 @@ Module.register("MMM-Rugby", {
         var table2Body = document.createElement("tbody");
 
         // Populate table1 body with data
-        this.dataSet2.forEach(function (data) {
+        dataSet.forEach(function (data) {
             var comprow = document.createElement("tr");
 
             const competitionAndTime = document.createElement("td");
