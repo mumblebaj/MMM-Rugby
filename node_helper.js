@@ -151,7 +151,7 @@ module.exports = NodeHelper.create({
       });
       const data = await response.json();
       const apiSportleagueData = data;
-      const gamestoDisplay = payload.apiSpots.numberofGamesToDisplay;
+      const gamestoDisplay = payload.apiSports.numberofGamesToDisplay;
       const daysPast = payload.apiSports.apiSportDaysPast;
       const daysFuture = payload.apiSports.apiSportsDaysFuture;
       const pastDays = DateTime.now().minus({ days: daysPast });

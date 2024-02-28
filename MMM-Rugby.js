@@ -56,11 +56,11 @@ Module.register("MMM-Rugby", {
         }
     },
 
-    getrankingData: function () {
+    getRankingData: function () {
         this.sendSocketNotification("GET_RANKING_DATA", this.config)
     },
 
-    getmatchData: function () {
+    getMatchData: function () {
         this.sendSocketNotification("GET_MATCH_DATA", this.config)
     },
 
