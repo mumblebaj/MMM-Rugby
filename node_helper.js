@@ -110,7 +110,7 @@ module.exports = NodeHelper.create({
   getRankingsData: async function (payload) {
     try {
       const url = 'https://api.wr-rims-prod.pulselive.com/rugby/v3/rankings/mru?language=en';
-      const response = await fetch(url, { method: 'GET ' });
+      const response = await fetch(url, { method: 'GET' });
 
       const rankingsData = data.entries.map(dataEvent => {
         const countryAbbreviation = dataEvent.team.countryCode;
@@ -143,7 +143,7 @@ module.exports = NodeHelper.create({
       const apiSportUrl = `https://v1.rugby.api-sports.io/games?league=${league_id}&season=${activeSeason}&timezone=${time_zone}`;
 
       const response = await fetch(apiSportUrl, {
-        headersmethod: 'get',
+        headersmethod: 'GET',
         headers: {
           'x-rapidapi-key': apiKey,
           'x-rapidapi-host': 'v1.rugby.api-sports.io'
@@ -226,7 +226,7 @@ module.exports = NodeHelper.create({
       const activeSeason = leagueSeason.find(season => season.leagueId === league_id)?.currentSeasons[0].season || '';
       const apiSportsRankingUrl = `https://v1.rugby.api-sports.io/standings?league=${league_id}&season=${activeSeason}`;
       const response = await fetch(apiSportsRankingUrl, {
-        headersmethod: 'get',
+        headersmethod: 'GET',
         headers: {
           'x-rapidapi-key': apiKey,
           'x-rapidapi-host': 'v1.rugby.api-sports.io'
