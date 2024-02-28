@@ -112,7 +112,9 @@ module.exports = NodeHelper.create({
       const url = 'https://api.wr-rims-prod.pulselive.com/rugby/v3/rankings/mru?language=en';
       const response = await fetch(url, { method: 'GET' });
 
-      const rankingsData = response.entries.map(dataEvent => {
+      const data = response.json();
+
+      const rankingsData = data.entries.map(dataEvent => {
         const countryAbbreviation = dataEvent.team.countryCode;
         const countryFlag = countryFlags.find(country => country['3code'] === countryAbbreviation)?.flag || '';
 
