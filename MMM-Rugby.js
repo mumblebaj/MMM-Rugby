@@ -32,8 +32,6 @@ Module.register("MMM-Rugby", {
     start: function () {
         var self = this;
         Log.info(`Starting module: ${this.name}`);
-        this.rankingData = null;
-        this.matchData = null;
         this.dataSets = {
             free: { rankingData: [], matchData: [] },
             apiSport: { rankingData: [], matchData: [] }
@@ -45,6 +43,9 @@ Module.register("MMM-Rugby", {
 
         this.getData();
         this.scheduleUpdate();
+        setInterval(function () {
+            self.rotateTables();
+        }, this.config.rotateInterval);
     },
 
     getData: function () {
@@ -76,16 +77,15 @@ Module.register("MMM-Rugby", {
 
     socketNotificationReceived: function (notification, payload) {
         if (notification === "RUGBY_RANKING_DATA") {
-            Log.log("RankingData Payload: ". payload)
-            this.dataSets[payload.collectionType].rankingData = payload.data;
-        } 
+            this.dataSets[this.config.collectionType].rankingData = payload;
+        }
         if (notification === "RUGBY_MATCH_DATA") {
-            this.dataSets[payload.collectionType].matchData = payload.data;
+            this.dataSets[this.config.collectionType].matchData = payload;
         }
         if (notification === "API_SPORT_GAME_DATA") {
-            this.dataSets[payload.collectionType].matchData = payload;
+            this.dataSets[this.config.collectionType].matchData = payload;
         } else if (notification === "API_SPORT_STANDING_DATA") {
-            this.dataSets[payload.collectionType].rankingData = payload;
+            this.dataSets[this.config.collectionType].rankingData = payload;
         }
         this.updateDom();
 
@@ -111,6 +111,7 @@ Module.register("MMM-Rugby", {
     },
 
     createTable1: function (dataSet) {
+        Log.log(dataSet)
         var MMMRugbyDiv = document.createElement('div');
         MMMRugbyDiv.classList.add('MMM-RugbyDiv');
         var rugbyHeader = document.createElement('div')
@@ -186,7 +187,7 @@ Module.register("MMM-Rugby", {
         MMMRugbyDiv.appendChild(table1)
 
         return MMMRugbyDiv;
-    },    
+    },
 
     createTable2: function (dataSet) {
         var MMMRugbyDiv = document.createElement('div');
@@ -352,11 +353,11 @@ Module.register("MMM-Rugby", {
 
     getDom: function () {
         var wrapper = document.createElement("div");
-    
+
         // Create tables and append wrapper
         if (this.currentTable === 1) {
-            this.table1 = this.createTable1(this.dataSet1);
-            this.table2 = this.createTable2(this.dataSet2);
+            this.table1 = this.createTable1(this.dataSets.free.rankingData);
+            this.table2 = this.createTable2(this.dataSets.free.matchData);
             wrapper.appendChild(this.table1);
             wrapper.appendChild(this.table2);
         } else {
@@ -368,7 +369,7 @@ Module.register("MMM-Rugby", {
                 wrapper.appendChild(this.table4);
             }
         }
-    
+
         return wrapper;
     }
 

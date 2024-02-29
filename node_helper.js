@@ -117,7 +117,9 @@ module.exports = NodeHelper.create({
       const rankingsData = data.entries.map(dataEvent => {
         const countryAbbreviation = dataEvent.team.countryCode;
         const countryFlag = countryFlags.find(country => country['3code'] === countryAbbreviation)?.flag || '';
-
+        if (rankingsData.length >= payload.rankingLimit) {
+          return;
+        }
         return {
           position: dataEvent.pos,
           previousPosition: dataEvent.previousPos,
