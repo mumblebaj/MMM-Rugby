@@ -19,11 +19,11 @@ module.exports = NodeHelper.create({
 
   getrugbyMatchData: async function (payload) {
 
-    var startofMonth = DateTime.local(DateTime.now()).startOf('month').toISODate();
+    const startofMonth = DateTime.local(DateTime.now()).startOf('month').toISODate();
 
-    var endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
+    const endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
 
-    var league = payload.league
+    // var league = payload.league
 
     var filteredData = [];
 
@@ -38,7 +38,7 @@ module.exports = NodeHelper.create({
 
     if (payload.competitions) {
       specificCompetitions = payload.competitions;
-      const filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competion));
+      filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competion));
     } else {
       filteredData = data.content;
     }
@@ -113,8 +113,8 @@ module.exports = NodeHelper.create({
       const response = await fetch(url, { method: 'GET' });
 
       const data = await response.json();
-
-      const rankingsData = data.entries.map(dataEvent => {
+      const rankingLimit = payload.rankingLimit;
+      const rankingsData = data.entries.slice(0, rankingLimit).map(dataEvent => {
         const countryAbbreviation = dataEvent.team.countryCode;
         const countryFlag = countryFlags.find(country => country['3code'] === countryAbbreviation)?.flag || '';
         if (rankingsData.length >= payload.rankingLimit) {

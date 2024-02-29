@@ -351,36 +351,36 @@ Module.register("MMM-Rugby", {
 
     },
 
-    getDom: function () {
-        var wrapper = document.createElement("div");
-
-        // Create tables and append wrapper
-        if (this.currentTable === 1) {
-            this.table1 = this.createTable1(this.dataSets.free.rankingData);
-            this.table2 = this.createTable2(this.dataSets.free.matchData);
-            wrapper.appendChild(this.table1);
-            wrapper.appendChild(this.table2);
-        } else {
-            // Ensure that table3 and table4 are not defined if not required
-            if (this.table3) {
-                wrapper.appendChild(this.table3);
-            }
-            if (this.table4) {
-                wrapper.appendChild(this.table4);
-            }
-        }
-
-        return wrapper;
-    }
-
     // getDom: function () {
     //     var wrapper = document.createElement("div");
 
-    //     const table1 = this.createTable1(this.dataSets.free.rankingData);
-    //     table1.id = "table1";
+    //     // Create tables and append wrapper
+    //     if (this.currentTable === 1) {
+    //         this.table1 = this.createTable1(this.dataSets.free.rankingData);
+    //         this.table2 = this.createTable2(this.dataSets.free.matchData);
+    //         wrapper.appendChild(this.table1);
+    //         wrapper.appendChild(this.table2);
+    //     } else {
+    //         // Ensure that table3 and table4 are not defined if not required
+    //         if (this.table3) {
+    //             wrapper.appendChild(this.table3);
+    //         }
+    //         if (this.table4) {
+    //             wrapper.appendChild(this.table4);
+    //         }
+    //     }
 
-    //     const table2 = this.createTable2(this.dataSets.free.matchData);
-    //     table2.id = "table2";
+    //     return wrapper;
+    // }
+
+    getDom: function () {
+        var wrapper = document.createElement("div");
+
+        const table1 = this.createTable1(this.dataSets.free.rankingData);
+        table1.id = "table1";
+
+        const table2 = this.createTable2(this.dataSets.free.matchData);
+        table2.id = "table2";
 
     //     const table3 = this.createTable3(this.dataSets.apiSport.rankingData);
     //     table3.id = "table3";
@@ -388,10 +388,10 @@ Module.register("MMM-Rugby", {
     //     const table4 = this.createTable4(this.dataSets.apiSport.matchData);
     //     table4.id = "table4";
 
-    //     wrapper.appendChild(table1);
-    //     wrapper.appendChild(table2);
+        wrapper.appendChild(table1);
+        wrapper.appendChild(table2);
     //     wrapper.appendChild(table3);
     //     wrapper.appendChild(table4);
-    //     return wrapper;
-    // }
+        return wrapper;
+    }
 })
