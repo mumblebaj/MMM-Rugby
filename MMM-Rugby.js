@@ -322,6 +322,7 @@ Module.register("MMM-Rugby", {
         var headerDiv = document.createElement("div");
         const leagueName = dataSet[0].leagueName;
         const firstLeagueFlag = dataSet[0].leagueFlag;
+        var currentDate = new Date().toLocaleDateString();
         headerDiv.id = "matchData";
         headerDiv.classList.add('medium', 'bright');
         headerDiv.innerHTML = `
