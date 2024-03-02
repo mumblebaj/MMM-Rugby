@@ -1,7 +1,7 @@
 var NodeHelper = require('node_helper')
 const fetch = require('node-fetch');
 const fs = require('fs');
-const os  = require('os');
+const os = require('os');
 var {
   DateTime
 } = require('luxon')
@@ -23,27 +23,27 @@ module.exports = NodeHelper.create({
 
     const endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
 
-    // var league = payload.league
+    const league = payload.league
 
-    var filteredData = [];
+    let filteredData = [];
 
-    let url = `https://api.wr-rims-prod.pulselive.com/rugby/v3/match?startDate=${startofMonth}&endDate=${endofMonth}&sort=asc&pageSize=100&page=0&sport=` + payload.sport
+    const url = `https://api.wr-rims-prod.pulselive.com/rugby/v3/match?startDate=${startofMonth}&endDate=2024-12-31&sort=asc&pageSize=100&page=0&sport=` + payload.sport
 
     // Get the match data
     const response = await fetch(url, {
       method: 'GET',
-
     })
     const data = await response.json();
 
-    if (payload.competitions) {
-      specificCompetitions = payload.competitions;
-      filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competion));
+    if (payload.competition) {
+      specificCompetitions = payload.competition;
+
+      filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competition));
     } else {
       filteredData = data.content;
     }
 
-    let rugbymatchesData = [];
+    const rugbymatchesData = [];
 
     const sevenDaysAgo = DateTime.now().minus({
       days: payload.matchesOlderThan
@@ -65,7 +65,7 @@ module.exports = NodeHelper.create({
 
       var endTime = dataEvent.events[0] ? dataEvent.events[0].start.millis : 0
 
-      let start1 = DateTime.fromMillis(dataEvent.time.millis).toLocaleString(DateTime.DATETIME_MED);
+      let start1 = DateTime.fromMillis(dataEvent.time.millis).toLocaleString(DateTime.DATE_MED);
 
       let eventStart = DateTime.fromMillis(dataEvent.time.millis).toLocaleString(DateTime.TIME_24_SIMPLE);
 
@@ -110,16 +110,15 @@ module.exports = NodeHelper.create({
   getRankingsData: async function (payload) {
     try {
       const url = 'https://api.wr-rims-prod.pulselive.com/rugby/v3/rankings/mru?language=en';
-      const response = await fetch(url, { method: 'GET' });
+      const response = await fetch(url, {
+        method: 'GET'
+      });
 
       const data = await response.json();
       const rankingLimit = payload.rankingLimit;
       const rankingsData = data.entries.slice(0, rankingLimit).map(dataEvent => {
         const countryAbbreviation = dataEvent.team.countryCode;
         const countryFlag = countryFlags.find(country => country['3code'] === countryAbbreviation)?.flag || '';
-        if (rankingsData.length >= payload.rankingLimit) {
-          return;
-        }
         return {
           position: dataEvent.pos,
           previousPosition: dataEvent.previousPos,
@@ -158,8 +157,12 @@ module.exports = NodeHelper.create({
       const gamestoDisplay = payload.apiSports.numberofGamesToDisplay;
       const daysPast = payload.apiSports.apiSportDaysPast;
       const daysFuture = payload.apiSports.apiSportsDaysFuture;
-      const pastDays = DateTime.now().minus({ days: daysPast });
-      const gamesPeriod = DateTime.now().plus({ days: daysFuture });
+      const pastDays = DateTime.now().minus({
+        days: daysPast
+      });
+      const gamesPeriod = DateTime.now().plus({
+        days: daysFuture
+      });
 
       const filteredGameData = apiSportleagueData.response.map(dataEvent => {
         const dateTime = DateTime.fromISO(dataEvent.date);
@@ -186,6 +189,7 @@ module.exports = NodeHelper.create({
         };
       }).filter(Boolean);
       const formattedData = filteredGameData.slice(0, gamestoDisplay);
+
       this.sendSocketNotification("API_SPORT_GAME_DATA", formattedData);
     } catch (error) {
       console.error("MMM-Rugby Error fetching API SPORTS GAME DATA: ", error)
@@ -229,6 +233,7 @@ module.exports = NodeHelper.create({
       const apiKey = payload.apiSports.apiSportKey;
       const activeSeason = leagueSeason.find(season => season.leagueId === league_id)?.currentSeasons[0].season || '';
       const apiSportsRankingUrl = `https://v1.rugby.api-sports.io/standings?league=${league_id}&season=${activeSeason}`;
+
       const response = await fetch(apiSportsRankingUrl, {
         headersmethod: 'GET',
         headers: {
@@ -239,7 +244,7 @@ module.exports = NodeHelper.create({
       const data = await response.json();
       const rankingsData = data;
       const rankingLimit = payload.apiSports.apiSportsNumRankings;
-      const rankingData = rankingsData.response.slice(0, rankingLimit).map(dataEvent => ({
+      const rankingData = data.response[0].slice(0, rankingLimit).map(dataEvent => ({
         rank: dataEvent.position,
         league: dataEvent.league.name,
         leagueFlag: dataEvent.league.logo,
@@ -262,7 +267,7 @@ module.exports = NodeHelper.create({
     }
   },
 
-   socketNotificationReceived: function (notification, payload) {
+  socketNotificationReceived: function (notification, payload) {
     switch (notification) {
       case "GET_RANKING_DATA":
         this.getRankingsData(payload);

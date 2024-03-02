@@ -1,0 +1,14 @@
+{
+    "Rank": "Classement",
+    "Flag": "écusson",
+    "Team": "équipe",
+    "Country": "pays",
+    "Pld" : "Joué",
+    "W": "Gagné",
+    "D": "nul",
+    "L": "Perdu",
+    "GF" : "Marqués",
+    "GA" : "Encaissés",
+    "Pts": "Points",
+    "N/A" : "N/A"
+}
