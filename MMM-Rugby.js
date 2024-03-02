@@ -210,8 +210,35 @@ Module.register("MMM-Rugby", {
     },
 
     createTable2: function (dataSet) {
+
+        var CompetitionType = "";
+        // Determine the competition type
+        switch (this.config.sport) {
+            case "mru":
+                CompetitionType = "Mens Rugby Union";
+                break;
+            case "mrs":
+                CompetitionType = "Mens Sevens Series";
+                break;
+            case "wrs":
+                CompetitionType = "Woman's Sevens Series";
+                break;
+            case "jmu":
+                CompetitionType = "U20 Six Nations";
+                break;
+        }
+
         let container = document.createElement("div");
         container.classList.add("MMMRugbyDiv");
+
+        var rugbyHeader = document.createElement('div')
+        rugbyHeader.className = 'medium'
+        var headerSpan = document.createElement('span')
+        headerSpan.className = 'medium'
+        headerSpan.setAttribute('align', 'right')
+        headerSpan.innerHTML = CompetitionType
+        rugbyHeader.appendChild(headerSpan)
+        container.appendChild(rugbyHeader)
 
         var table = document.createElement("table");
         table.id = "misSportMatchesTable";
