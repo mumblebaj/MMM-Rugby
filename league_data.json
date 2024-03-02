@@ -1,0 +1,1654 @@
+[
+  {
+    "leagueId": 1,
+    "leagueName": "Top 12",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/1.png",
+    "leagueCountryId": 1,
+    "leagueCountryName": "Argentina",
+    "leagueCountryCode": "AR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ar.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 3,
+    "leagueName": "NRC",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/3.png",
+    "leagueCountryId": 2,
+    "leagueCountryName": "Australia",
+    "leagueCountryCode": "AU",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/au.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 2,
+    "leagueName": "Shute Shield",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/2.png",
+    "leagueCountryId": 2,
+    "leagueCountryName": "Australia",
+    "leagueCountryCode": "AU",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/au.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 4,
+    "leagueName": "Super W Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/4.png",
+    "leagueCountryId": 2,
+    "leagueCountryName": "Australia",
+    "leagueCountryCode": "AU",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/au.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 49,
+    "leagueName": "Oceania Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/49.png",
+    "leagueCountryId": 24,
+    "leagueCountryName": "Australia-Oceania",
+    "leagueCountryCode": "AU",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/au.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 50,
+    "leagueName": "Oceania Sevens Championships",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/50.png",
+    "leagueCountryId": 24,
+    "leagueCountryName": "Australia-Oceania",
+    "leagueCountryCode": "AU",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/au.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 5,
+    "leagueName": "Premiership",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/5.png",
+    "leagueCountryId": 3,
+    "leagueCountryName": "Austria",
+    "leagueCountryCode": "AT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/at.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 6,
+    "leagueName": "CRC",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/6.png",
+    "leagueCountryId": 4,
+    "leagueCountryName": "Canada",
+    "leagueCountryCode": "CA",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ca.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 9,
+    "leagueName": "1. Liga",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/9.png",
+    "leagueCountryId": 5,
+    "leagueCountryName": "Czech-Republic",
+    "leagueCountryCode": "CZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/cz.svg",
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-02-17",
+        "end": "2024-05-18"
+      }
+    ]
+  },
+  {
+    "leagueId": 8,
+    "leagueName": "CSRU Cup",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/8.png",
+    "leagueCountryId": 5,
+    "leagueCountryName": "Czech-Republic",
+    "leagueCountryCode": "CZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/cz.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 7,
+    "leagueName": "Extraliga",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/7.png",
+    "leagueCountryId": 5,
+    "leagueCountryName": "Czech-Republic",
+    "leagueCountryCode": "CZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/cz.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 13,
+    "leagueName": "Premiership Rugby",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/13.png",
+    "leagueCountryId": 6,
+    "leagueCountryName": "England",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-10-13",
+        "end": "2024-05-18"
+      }
+    ]
+  },
+  {
+    "leagueId": 14,
+    "leagueName": "Championship Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/14.png",
+    "leagueCountryId": 6,
+    "leagueCountryName": "England",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 12,
+    "leagueName": "Greene King IPA Championship",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/12.png",
+    "leagueCountryId": 6,
+    "leagueCountryName": "England",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-10-20",
+        "end": "2024-05-25"
+      }
+    ]
+  },
+  {
+    "leagueId": 15,
+    "leagueName": "Premier 15s Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/15.png",
+    "leagueCountryId": 6,
+    "leagueCountryName": "England",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-11-18",
+        "end": "2024-06-01"
+      }
+    ]
+  },
+  {
+    "leagueId": 10,
+    "leagueName": "Premiership Rugby Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/10.png",
+    "leagueCountryId": 6,
+    "leagueCountryName": "England",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-09-08",
+        "end": "2024-03-15"
+      }
+    ]
+  },
+  {
+    "leagueId": 11,
+    "leagueName": "Varsity Match",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/11.png",
+    "leagueCountryId": 6,
+    "leagueCountryName": "England",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 59,
+    "leagueName": "Anglo-Welsh Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/59.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 53,
+    "leagueName": "British and Irish Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/53.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 66,
+    "leagueName": "Celtic Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/66.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 52,
+    "leagueName": "Challenge Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/52.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-12-08",
+        "end": "2024-04-06"
+      }
+    ]
+  },
+  {
+    "leagueId": 67,
+    "leagueName": "Continental Shield",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/67.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 83,
+    "leagueName": "Europe Super Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/83.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 54,
+    "leagueName": "European Rugby Champions Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/54.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-12-08",
+        "end": "2024-04-06"
+      }
+    ]
+  },
+  {
+    "leagueId": 58,
+    "leagueName": "Rugby Europe Championship",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/58.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-02-03",
+        "end": "2024-03-02"
+      }
+    ]
+  },
+  {
+    "leagueId": 57,
+    "leagueName": "Rugby Europe Trophy",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/57.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-10-28",
+        "end": "2024-04-13"
+      }
+    ]
+  },
+  {
+    "leagueId": 63,
+    "leagueName": "Sevens Europe Series - England",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/63.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 62,
+    "leagueName": "Sevens Europe Series - France",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/62.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 64,
+    "leagueName": "Sevens Europe Series - Poland",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/64.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 81,
+    "leagueName": "Sevens Europe Series - Portugal",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/81.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 60,
+    "leagueName": "Sevens Europe Series - Russia",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/60.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 61,
+    "leagueName": "Sevens Europe Series Women - France",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/61.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 82,
+    "leagueName": "Sevens Europe Series Women - Portugal",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/82.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 65,
+    "leagueName": "Sevens Europe Series Women - Russia",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/65.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 68,
+    "leagueName": "Sevens Europe Series Women - Ukraine",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/68.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 51,
+    "leagueName": "Six Nations",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/51.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-02-02",
+        "end": "2024-03-16"
+      }
+    ]
+  },
+  {
+    "leagueId": 56,
+    "leagueName": "Six Nations U20",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/56.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-02-02",
+        "end": "2024-03-15"
+      }
+    ]
+  },
+  {
+    "leagueId": 55,
+    "leagueName": "Six Nations Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/55.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 79,
+    "leagueName": "Nationale",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/79.png",
+    "leagueCountryId": 7,
+    "leagueCountryName": "France",
+    "leagueCountryCode": "FR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-08-25",
+        "end": "2024-04-27"
+      }
+    ]
+  },
+  {
+    "leagueId": 17,
+    "leagueName": "Pro D2",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/17.png",
+    "leagueCountryId": 7,
+    "leagueCountryName": "France",
+    "leagueCountryCode": "FR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-08-17",
+        "end": "2024-05-17"
+      }
+    ]
+  },
+  {
+    "leagueId": 18,
+    "leagueName": "Supersevens",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/18.png",
+    "leagueCountryId": 7,
+    "leagueCountryName": "France",
+    "leagueCountryCode": "FR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 77,
+    "leagueName": "Supersevens 2",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/77.png",
+    "leagueCountryId": 7,
+    "leagueCountryName": "France",
+    "leagueCountryCode": "FR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 78,
+    "leagueName": "Supersevens 3",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/78.png",
+    "leagueCountryId": 7,
+    "leagueCountryName": "France",
+    "leagueCountryCode": "FR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 16,
+    "leagueName": "Top 14",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/16.png",
+    "leagueCountryId": 7,
+    "leagueCountryName": "France",
+    "leagueCountryCode": "FR",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-08-18",
+        "end": "2024-06-08"
+      }
+    ]
+  },
+  {
+    "leagueId": 19,
+    "leagueName": "Didi 10",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/19.png",
+    "leagueCountryId": 8,
+    "leagueCountryName": "Georgia",
+    "leagueCountryCode": "GE",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ge.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-09-08",
+        "end": "2024-03-23"
+      }
+    ]
+  },
+  {
+    "leagueId": 20,
+    "leagueName": "1. Bundesliga",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/20.png",
+    "leagueCountryId": 9,
+    "leagueCountryName": "Germany",
+    "leagueCountryCode": "DE",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/de.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-09-02",
+        "end": "2024-05-11"
+      }
+    ]
+  },
+  {
+    "leagueId": 72,
+    "leagueName": "All Ireland League",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/72.png",
+    "leagueCountryId": 10,
+    "leagueCountryName": "Ireland",
+    "leagueCountryCode": "IE",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ie.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 25,
+    "leagueName": "Coppa Italia",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/25.png",
+    "leagueCountryId": 11,
+    "leagueCountryName": "Italy",
+    "leagueCountryCode": "IT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/it.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 22,
+    "leagueName": "Eccellenza",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/22.png",
+    "leagueCountryId": 11,
+    "leagueCountryName": "Italy",
+    "leagueCountryCode": "IT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/it.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 26,
+    "leagueName": "Top10",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/26.png",
+    "leagueCountryId": 11,
+    "leagueCountryName": "Italy",
+    "leagueCountryCode": "IT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/it.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-10-07",
+        "end": "2024-04-14"
+      }
+    ]
+  },
+  {
+    "leagueId": 24,
+    "leagueName": "Top12",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/24.png",
+    "leagueCountryId": 11,
+    "leagueCountryName": "Italy",
+    "leagueCountryCode": "IT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/it.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 23,
+    "leagueName": "Trofeo Eccellenza",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/23.png",
+    "leagueCountryId": 11,
+    "leagueCountryName": "Italy",
+    "leagueCountryCode": "IT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/it.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 27,
+    "leagueName": "Top League",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/27.png",
+    "leagueCountryId": 12,
+    "leagueCountryName": "Japan",
+    "leagueCountryCode": "JP",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/jp.svg",
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2023-12-09",
+        "end": "2024-05-05"
+      }
+    ]
+  },
+  {
+    "leagueId": 28,
+    "leagueName": "Ereklasse",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/28.png",
+    "leagueCountryId": 13,
+    "leagueCountryName": "Netherlands",
+    "leagueCountryCode": "NL",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/nl.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-09-16",
+        "end": "2024-05-04"
+      }
+    ]
+  },
+  {
+    "leagueId": 80,
+    "leagueName": "Bunnings NPC",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/80.png",
+    "leagueCountryId": 14,
+    "leagueCountryName": "New-Zealand",
+    "leagueCountryCode": "NZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/nz.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 73,
+    "leagueName": "Heartland Championships",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/73.png",
+    "leagueCountryId": 14,
+    "leagueCountryName": "New-Zealand",
+    "leagueCountryCode": "NZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/nz.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 29,
+    "leagueName": "Mitre 10 Cup",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/29.png",
+    "leagueCountryId": 14,
+    "leagueCountryName": "New-Zealand",
+    "leagueCountryCode": "NZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/nz.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 30,
+    "leagueName": "Ekstraliga",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/30.png",
+    "leagueCountryId": 15,
+    "leagueCountryName": "Poland",
+    "leagueCountryCode": "PL",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/pl.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-08-12",
+        "end": "2024-05-18"
+      }
+    ]
+  },
+  {
+    "leagueId": 31,
+    "leagueName": "CN Honra",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/31.png",
+    "leagueCountryId": 16,
+    "leagueCountryName": "Portugal",
+    "leagueCountryCode": "PT",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/pt.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 32,
+    "leagueName": "SuperLiga",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/32.png",
+    "leagueCountryId": 17,
+    "leagueCountryName": "Romania",
+    "leagueCountryCode": "RO",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ro.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 33,
+    "leagueName": "Premier League",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/33.png",
+    "leagueCountryId": 18,
+    "leagueCountryName": "Russia",
+    "leagueCountryCode": "RU",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ru.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-07-29",
+        "end": "2024-07-07"
+      }
+    ]
+  },
+  {
+    "leagueId": 34,
+    "leagueName": "BT Premiership",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/34.png",
+    "leagueCountryId": 19,
+    "leagueCountryName": "Scotland",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 36,
+    "leagueName": "Super 6",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/36.png",
+    "leagueCountryId": 19,
+    "leagueCountryName": "Scotland",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 35,
+    "leagueName": "Tennent's Premiership",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/35.png",
+    "leagueCountryId": 19,
+    "leagueCountryName": "Scotland",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-09-02",
+        "end": "2024-03-02"
+      }
+    ]
+  },
+  {
+    "leagueId": 38,
+    "leagueName": "7s Premier League",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/38.png",
+    "leagueCountryId": 20,
+    "leagueCountryName": "South-Africa",
+    "leagueCountryCode": "ZA",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/za.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 37,
+    "leagueName": "Currie Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/37.png",
+    "leagueCountryId": 20,
+    "leagueCountryName": "South-Africa",
+    "leagueCountryCode": "ZA",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/za.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 41,
+    "leagueName": "Super Liga Americana",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/41.png",
+    "leagueCountryId": 20,
+    "leagueCountryName": "South-Africa",
+    "leagueCountryCode": "ZA",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/za.svg",
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-02-16",
+        "end": "2024-05-25"
+      }
+    ]
+  },
+  {
+    "leagueId": 40,
+    "leagueName": "SuperSport Rugby Challenge",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/40.png",
+    "leagueCountryId": 20,
+    "leagueCountryName": "South-Africa",
+    "leagueCountryCode": "ZA",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/za.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 39,
+    "leagueName": "Vodacom Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/39.png",
+    "leagueCountryId": 20,
+    "leagueCountryName": "South-Africa",
+    "leagueCountryCode": "ZA",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/za.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 42,
+    "leagueName": "Division de Honor",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/42.png",
+    "leagueCountryId": 21,
+    "leagueCountryName": "Spain",
+    "leagueCountryCode": "ES",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/es.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-10-01",
+        "end": "2024-04-14"
+      }
+    ]
+  },
+  {
+    "leagueId": 44,
+    "leagueName": "Major League Rugby",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/44.png",
+    "leagueCountryId": 22,
+    "leagueCountryName": "USA",
+    "leagueCountryCode": "US",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/us.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 43,
+    "leagueName": "PRO Rugby",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/43.png",
+    "leagueCountryId": 22,
+    "leagueCountryName": "USA",
+    "leagueCountryCode": "US",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/us.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 46,
+    "leagueName": "Challenge Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/46.png",
+    "leagueCountryId": 23,
+    "leagueCountryName": "Wales",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 48,
+    "leagueName": "Premiership",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/48.png",
+    "leagueCountryId": 23,
+    "leagueCountryName": "Wales",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-09-02",
+        "end": "2024-04-27"
+      }
+    ]
+  },
+  {
+    "leagueId": 45,
+    "leagueName": "Principality Premiership",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/45.png",
+    "leagueCountryId": 23,
+    "leagueCountryName": "Wales",
+    "leagueCountryCode": "GB",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 100,
+    "leagueName": "Americas Championship",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/100.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 92,
+    "leagueName": "Americas Pacific Challenge",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/92.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 93,
+    "leagueName": "Autumn Nations Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/93.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 96,
+    "leagueName": "Club Friendly",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/96.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 103,
+    "leagueName": "Commonwealth Games 7's",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/103.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 104,
+    "leagueName": "Commonwealth Games 7's Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/104.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 84,
+    "leagueName": "Friendly International",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/84.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 97,
+    "leagueName": "Friendly International Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/97.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 99,
+    "leagueName": "IRB Tbilisi Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/99.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 88,
+    "leagueName": "Lions Tour",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/88.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 101,
+    "leagueName": "Middlesex 7's",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/101.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 89,
+    "leagueName": "Nations Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/89.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 74,
+    "leagueName": "Olympic Games 7's",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/74.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 75,
+    "leagueName": "Olympic Games 7's Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/75.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 98,
+    "leagueName": "Pacific Challenge",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/98.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 90,
+    "leagueName": "Pacific Nations Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/90.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 107,
+    "leagueName": "Pan American Games 7's",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/107.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 108,
+    "leagueName": "Pan American Games 7's Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/108.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 94,
+    "leagueName": "Pro14 Rainbow Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/94.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 85,
+    "leagueName": "Rugby Championship",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/85.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 110,
+    "leagueName": "Seven's World Series - Australia",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/110.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 119,
+    "leagueName": "Seven's World Series - Canada",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/119.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 132,
+    "leagueName": "Seven's World Series - Canada 2",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/132.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 111,
+    "leagueName": "Seven's World Series - Dubai",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/111.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 134,
+    "leagueName": "Seven's World Series - Dubai 2",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/134.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 117,
+    "leagueName": "Seven's World Series - England",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/117.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 121,
+    "leagueName": "Seven's World Series - France",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/121.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 115,
+    "leagueName": "Seven's World Series - Hong Kong",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/115.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 118,
+    "leagueName": "Seven's World Series - Japan",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/118.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 113,
+    "leagueName": "Seven's World Series - New Zealand",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/113.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 116,
+    "leagueName": "Seven's World Series - Scotland",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/116.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 120,
+    "leagueName": "Seven's World Series - Singapore",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/120.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 112,
+    "leagueName": "Seven's World Series - South Africa",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/112.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 130,
+    "leagueName": "Seven's World Series - Spain",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/130.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 114,
+    "leagueName": "Seven's World Series - USA",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/114.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 123,
+    "leagueName": "Seven's World Series Women - Australia",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/123.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 126,
+    "leagueName": "Seven's World Series Women - Canada",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/126.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 133,
+    "leagueName": "Seven's World Series Women - Canada 2",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/133.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 122,
+    "leagueName": "Seven's World Series Women - Dubai",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/122.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 135,
+    "leagueName": "Seven's World Series Women - Dubai 2",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/135.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 127,
+    "leagueName": "Seven's World Series Women - France",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/127.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 125,
+    "leagueName": "Seven's World Series Women - Japan",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/125.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 129,
+    "leagueName": "Seven's World Series Women - New Zealand",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/129.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 128,
+    "leagueName": "Seven's World Series Women - South Africa",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/128.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 131,
+    "leagueName": "Seven's World Series Women - Spain",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/131.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 124,
+    "leagueName": "Seven's World Series Women - USA",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/124.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 86,
+    "leagueName": "Sevens World Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/86.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 87,
+    "leagueName": "Sevens World Cup Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/87.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 71,
+    "leagueName": "Super Rugby",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/71.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-02-23",
+        "end": "2024-06-01"
+      }
+    ]
+  },
+  {
+    "leagueId": 91,
+    "leagueName": "Super Series Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/91.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 95,
+    "leagueName": "Supersevens Finals",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/95.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 76,
+    "leagueName": "United Rugby Championship",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/76.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": [
+      {
+        "season": 2023,
+        "current": true,
+        "start": "2023-10-21",
+        "end": "2024-06-01"
+      }
+    ]
+  },
+  {
+    "leagueId": 105,
+    "leagueName": "Universiade 7's",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/105.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 106,
+    "leagueName": "Universiade 7's Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/106.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 102,
+    "leagueName": "World Championship U20",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/102.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 109,
+    "leagueName": "World Club 7's",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/109.png",
+    "leagueCountryId": null,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 69,
+    "leagueName": "World Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/69.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 70,
+    "leagueName": "World Cup Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/70.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  }
+]

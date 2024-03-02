@@ -1,33 +1,91 @@
+/* MMM-Rugby.css */
+
 .MMM-Rugbylogo {
-    position: relative;
-    top: 2px;
-    background-color: transparent;
-  }
-  
-  .MMM-RugbyColon {
-    width: 2px;
-    text-align: center;
-  }
-  
-  .MMM-RugbyDetails {
-    position: relative;
-    height: 2ch;
-  }
-  
-  .MMM-RugbyBorder td {
-      border-bottom: 1px solid white;
-  }
-  
-  .MMM-RugbyTable {
-      font-size: 15px;
-      overflow: hidden;
-      display: inline-block;
-      white-space: nowrap;
-  }
-  
-  .MMM-RugbyComp {
-      font-size: 13px;
-      overflow: hidden;
-      display: inline-block;
-      white-space: nowrap;
-  }
+  position: relative;
+  top: 2px;
+  background-color: transparent;
+}
+
+.MMM-RugbyColon {
+  width: 2px;
+  text-align: center;
+}
+
+.MMM-RugbyDetails {
+  position: relative;
+  height: 2ch;
+}
+
+.MMM-RugbyBorder td {
+    border-bottom: 1px solid white;
+}
+
+.MMM-RugbyTable {
+    /*font-size: 15px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;*/
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.MMM-RugbyComp {
+    font-size: 13px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+#MMMRugby-rankingTable {
+border-collapse: collapse;
+width: 100%
+}
+
+#MMMRugby-rankingTable th, #MMMRugby-rankingTable td {
+border: 1px solid #968887;
+text-align: left;
+padding: 8px;
+}
+
+#MMMRugby-rankingTable img {
+height: 20px;
+width: 20px;
+vertical-align: middle;
+margin-right: 5px;
+}
+
+#rankingData img, #matchData img {
+height: 30px;
+width: 30px;
+vertical-align: middle;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+#rankingMatchesTable {
+border-collapse: collapse;
+width: 100%;
+}
+
+#rankingMatchesTable th, #rankingMatchesTable td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+.team-flag {
+height: 20px;
+width: 20px;
+vertical-align: middle;
+margin-right: 5px;
+}
+
+#misSportMatchesTable {
+border-collapse: collapse;
+width: 100%;
+}
+
+#misSportMatchesTable th, #misSportMatchesTable td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
