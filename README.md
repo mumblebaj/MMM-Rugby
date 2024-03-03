@@ -55,6 +55,7 @@ npm install
 ````
 
 Add the module to the modules array in the `config/config.js` file:
+Example config for `free`
 ````javascript
     {
         module: "MMM-Rugby",
@@ -67,7 +68,24 @@ Add the module to the modules array in the `config/config.js` file:
                         rankingLimit: 10,
                         matchesLimit: 10,
                         matchesOlderThan: 7,
-                        competitions: [],
+                        competitions: ["Six Nations 2024", "Rugby Europe Conference 2024"],
+                        collectionType: "free" // api-key required
+                }
+    },
+````
+
+Example config for `apiSport`
+````javascript
+    {
+        module: "MMM-Rugby",
+        position: "top_right",
+        disabled: false,
+                config: {
+                        updateInterval: 1000*60*60*24,
+                        rotateInterval: 60000,
+                        rankingLimit: 10,
+                        matchesLimit: 10,
+                        matchesOlderThan: 7,
                         collectionType: "apiSport", // api-key required
                         apiSports: {
                             apiSportStandingLeagueId: 16,
@@ -81,6 +99,7 @@ Add the module to the modules array in the `config/config.js` file:
                 }
     },
 ````
+
 ## Configuration Option
 
 The following properties can be configured:
