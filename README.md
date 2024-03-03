@@ -10,7 +10,8 @@ This module will get the current World Rugby Rankings. A selection of Rugby Leaq
 
 ## Examples
 
-THe module will always return the World Rankings by default and the selected Rugby League data on the second table
+The module will always return the World Rankings by default and the selected Rugby League data on the second table when using the `free` collectionType. if `apiSport` is used the requested league Standings will be returned along with the matches, past and upcoming, for the selected league.
+
 ### World Rankings
 ![Example](images/screenshot.png)
 
