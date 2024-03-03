@@ -55,7 +55,9 @@ npm install
 ````
 
 Add the module to the modules array in the `config/config.js` file:
+
 Example config for `free`
+
 ````javascript
     {
         module: "MMM-Rugby",
@@ -73,8 +75,8 @@ Example config for `free`
                 }
     },
 ````
-
 Example config for `apiSport`
+
 ````javascript
     {
         module: "MMM-Rugby",
@@ -113,7 +115,7 @@ The following properties can be configured:
 | `rankingLimit`               | The Number of Rankings to return for the World Rankings <br> **Default value:** `10`
 | `matchesLimit`               | The number of matches to return. <br> **Default value:** `10`
 | `matchesOlderThan`           | Will return only matches New than this specified number of days, i.e. if set to 7 will return matches older than current date - 7 and fill the number of matchesLimit with upcoming matches. <br> **Default value:** `7`
-| `competitions`               | An array of leagues can now be selected to filter the Mens Rugby Union by. <br> **Example** <br> competition: ["The Rugby Championship 2024","Rugby Europe Conference 2024", "Six Nations 2024"] <br><br> If option is not selected then all Leagues will be returned.
+| `competitions`               | Only used where collectionType is set to `free`. <br> An array of leagues can now be selected to filter the Mens Rugby Union by. <br> **Example** <br> competition: ["The Rugby Championship 2024","Rugby Europe Conference 2024", "Six Nations 2024"] <br><br> If option is not selected then all Leagues will be returned.
 | `collectionType`             | There are two options here, `free` or `apiSport`. `free` does not require an api-key whereas `apiSport` requires and api-key. <br> **Default value:** `free` <br> for apiSport you need to register on the [API-SPORT](https://dashboard.api-football.com/register) website. You get 100 free api calls per day.
 | `apiSports`                  | In order to use this api a few configs are required specifically for this api. This following section covers that. For the `free` `collectionType` this ection is not required.
 | `apiSportStandingsLeagueId`  | The module ships with a list of available leagues for the apiSports. Please see `league_data.json` for your prefered league. Also ensure that your prefered league has an activie season alse no standings or match data will be returned. The code will automatically select the active league if it is available.
