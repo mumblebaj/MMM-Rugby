@@ -312,8 +312,7 @@ Module.register("MMM-Rugby", {
     <th>W</th>
     <th>D</th>
     <th>L</th>
-    <th>GF</th>
-    <th>GA</th>
+    <th>GD</th>
     <th>Pts</th>
   </tr>
     `;
@@ -322,6 +321,7 @@ Module.register("MMM-Rugby", {
         var tbody = document.createElement("tbody");
         dataSet.forEach(function (entry) {
             var row = document.createElement("tr");
+            var goalDiff = entry.teamStats.goalsFor - entry.teamStats.goalsAgainst
             row.classList.add('xsmall', 'bright')
             row.innerHTML = `
         <td>${entry.rank}</td>
@@ -332,8 +332,7 @@ Module.register("MMM-Rugby", {
         <td>${entry.teamStats.win}</td>
         <td>${entry.teamStats.draw}</td>
         <td>${entry.teamStats.lose}</td>
-        <td>${entry.teamStats.goalsFor}</td>
-        <td>${entry.teamStats.goalsAgainst}</td>
+        <td>${goalDiff}</td>
         <td>${entry.teamStats.points}</td>
       `;
             tbody.appendChild(row);
