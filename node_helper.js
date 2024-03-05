@@ -35,8 +35,8 @@ module.exports = NodeHelper.create({
     })
     const data = await response.json();
 
-    if (payload.competition) {
-      specificCompetitions = payload.competition;
+    if (payload.sport= 'mru' && payload.competitions) {
+      specificCompetitions = payload.competitions;
 
       filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competition));
     } else {

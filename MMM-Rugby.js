@@ -249,7 +249,7 @@ Module.register("MMM-Rugby", {
       <tr>
         <th>Date</th>
         <th>Time</th>
-        <th>Competition</th>
+        ${self.config.sport === 'mru' && self.config.competitions.length > 1 ? '<th>Competition</th>' : ''}
         <th>Home Team</th>
         <th>Away Team</th>
         <th>Score</th>
@@ -267,7 +267,7 @@ Module.register("MMM-Rugby", {
             row.innerHTML = `
         <td>${match.matchDateTime}</td>
         <td>${match.eventStart}</td>
-        <td>${match.competition}</td>
+        ${self.config.sport === 'mru' && self.config.competitions.length > 1 ? `<td>${match.competition}</td>` : ''}
         <td><img src="${match.team1Flag}" class="team-flag" /> ${match.team1Name}</td>
         <td><img src="${match.team2Flag}" class="team-flag" /> ${match.team2Name}</td>
         <td>${homeTeamScore} - ${awayTeamScore}</td>
