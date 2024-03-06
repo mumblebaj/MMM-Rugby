@@ -145,7 +145,7 @@ npm install
 - Various updates to table displays
 
 ### CSS Changes example
-If you want to remove the borders on the tables you can add the following to your ~/MagicMirror/css/cusotm.css
+If you want to remove the borders on the tables you can add the following to your ~/MagicMirror/css/custom.css
 
 ````css
 .MMM-Rugby #MMMRugby-rankingTable td,
