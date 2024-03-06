@@ -147,7 +147,7 @@ npm install
 ### CSS Changes example
 If you want to remove the borders on the tables you can add the following to your ~/MagicMirror/css/cusotm.css
 
-````javascript
+````css
 .MMM-Rugby #MMMRugby-rankingTable td,
 .MMM-Rugby #misSportMatchesTable td,
 .MMM-Rugby #MMMRugby-rankingTable th,
@@ -159,6 +159,6 @@ If you want to remove the borders on the tables you can add the following to you
 ````
 
 ## Future Enhancements
-- ~~Option to select specific MRU Leagues only~~
-- ~~Enhance Display of the Matches table.~~
+- [x] Option to select specific MRU Leagues only
+- [x] Enhance Display of the Matches table.
 
