@@ -145,5 +145,5 @@ npm install
 
 ## Future Enhancements
 - ~~Option to select specific MRU Leagues only~~
-- Enhance Display of the Matches table.
+- ~~Enhance Display of the Matches table.~~
 
