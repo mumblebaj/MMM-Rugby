@@ -139,9 +139,24 @@ npm install
 
 ## Changes
 
-### v1.0.2
+### v1.1.1
 
-- Add an option to specify specific leagues when selection **mru**
+- Added an option to get data from apiSport.
+- Various updates to table displays
+
+### CSS Changes example
+If you want to remove the borders on the tables you can add the following to your ~/MagicMirror/css/cusotm.css
+
+````javascript
+.MMM-Rugby #MMMRugby-rankingTable td,
+.MMM-Rugby #misSportMatchesTable td,
+.MMM-Rugby #MMMRugby-rankingTable th,
+.MMM-Rugby #misSportMatchesTable th,
+.MMM-Rugby #rankingMatchesTable td,
+.MMM-Rugby #rankingMatchesTable th {
+  border: none;
+}
+````
 
 ## Future Enhancements
 - ~~Option to select specific MRU Leagues only~~
