@@ -99,17 +99,43 @@ Module.register("MMM-Rugby", {
     },
 
     scheduleUpdate: function () {
+        // Define intervals based on the current day of the week
+        const currentDate = new Date();
+        const dayOfWeek = currentDate.getDay(); // Sunday is 0, Saturday is 6
 
-        // Second interval for daily updates
-        const oneDayMilliseconds = 24 * 60 * 60 * 1000; // milliseconds in a day
-        setInterval(() => {
-            this.refreshApiSportLeagues();
-        }, oneDayMilliseconds);
-        setTimeout(() => {
+        let interval;
+        if (dayOfWeek === 6) {
+            // Saturday, update every half an hour
+            interval = 30 * 60 * 1000; // 30 minutes in milliseconds
+        } else {
+            // Sunday to Friday, update every hour
+            interval = 60 * 60 * 1000; // 1 hour in milliseconds
+        }
+
+        if (this.config.autoUpdate) {
+
+            // Second interval for daily updates
+            const oneDayMilliseconds = 24 * 60 * 60 * 1000; // milliseconds in a day
             setInterval(() => {
-                this.getData();
-            }, this.config.updateInterval);
-        }, 2000);
+                this.refreshApiSportLeagues();
+            }, oneDayMilliseconds);
+            setTimeout(() => {
+                setInterval(() => {
+                    this.refreshData();
+                }, interval);
+            }, 2000);
+        } else {
+            // Second interval for daily updates
+            const oneDayMilliseconds = 24 * 60 * 60 * 1000; // milliseconds in a day
+            setInterval(() => {
+                this.refreshApiSportLeagues();
+            }, oneDayMilliseconds);
+            setTimeout(() => {
+                setInterval(() => {
+                    this.refreshData();
+                }, this.config.updateInterval);
+            }, 2000);
+        }
     },
 
     socketNotificationReceived: function (notification, payload) {
