@@ -235,6 +235,7 @@ Module.register("MMM-Rugby", {
     },
 
     createTable2: function (dataSet) {
+        var self = this;
 
         var CompetitionType = "";
         // Determine the competition type
