@@ -69,6 +69,15 @@ Module.register("MMM-Rugby", {
         }
     },
 
+    refreshData: function () {
+        if (this.config.collectionType === "free") {
+            this.getRankingData();
+            this.getMatchData();
+        } else if (this.config.collectionType === "apiSport") {
+            this.refreshApiSportData();
+        }
+    },
+
     getRankingData: function () {
         this.sendSocketNotification("GET_RANKING_DATA", this.config)
     },
@@ -81,10 +90,26 @@ Module.register("MMM-Rugby", {
         this.sendSocketNotification("GET_API_SPORT_DATA", this.config)
     },
 
+    refreshApiSportData: function () {
+        this.sendSocketNotification("REFRESH_API_SPORT_DATA", this.config)
+    },
+
+    refreshApiSportLeagues: function () {
+        this.sendSocketNotitication("GET_API_SPORT_LEAGUE", this.config)
+    },
+
     scheduleUpdate: function () {
+
+        // Second interval for daily updates
+        const oneDayMilliseconds = 24 * 60 * 60 * 1000; // milliseconds in a day
         setInterval(() => {
-            this.getData();
-        }, this.config.updateInterval);
+            this.refreshApiSportLeagues();
+        }, oneDayMilliseconds);
+        setTimeout(() => {
+            setInterval(() => {
+                this.getData();
+            }, this.config.updateInterval);
+        }, 2000);
     },
 
     socketNotificationReceived: function (notification, payload) {
