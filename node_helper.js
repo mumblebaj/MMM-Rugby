@@ -35,7 +35,7 @@ module.exports = NodeHelper.create({
     })
     const data = await response.json();
 
-    if (payload.sport= 'mru' && payload.competitions) {
+    if (payload.sport = 'mru' && payload.competitions) {
       specificCompetitions = payload.competitions;
 
       filteredData = data.content.filter(dataEvent => specificCompetitions.includes(dataEvent.competition));
@@ -281,6 +281,13 @@ module.exports = NodeHelper.create({
             this.getapiSportsGameData(payload);
             this.getapiSportsRankingData(payload);
           });
+      case "REFRESH_API_SPORT_DATA":
+        console.log("Refreshing MMM-Rugby Data")
+        this.getapiSportsGameData(payload);
+        this.getapiSportsRankingData(payload);
+        break;
+      case "GET_API_SPORT_LEAGUE":
+        this.getapiSportsLeagueData(payload)
         break;
       default:
         console.error("MMM-Rugby Unknown notification received: ", notification);

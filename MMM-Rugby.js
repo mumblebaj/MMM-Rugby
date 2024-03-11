@@ -69,6 +69,15 @@ Module.register("MMM-Rugby", {
         }
     },
 
+    refreshData: function () {
+        if (this.config.collectionType === "free") {
+            this.getRankingData();
+            this.getMatchData();
+        } else if (this.config.collectionType === "apiSport") {
+            this.refreshApiSportData();
+        }
+    },
+
     getRankingData: function () {
         this.sendSocketNotification("GET_RANKING_DATA", this.config)
     },
@@ -81,10 +90,52 @@ Module.register("MMM-Rugby", {
         this.sendSocketNotification("GET_API_SPORT_DATA", this.config)
     },
 
+    refreshApiSportData: function () {
+        this.sendSocketNotification("REFRESH_API_SPORT_DATA", this.config)
+    },
+
+    refreshApiSportLeagues: function () {
+        this.sendSocketNotitication("GET_API_SPORT_LEAGUE", this.config)
+    },
+
     scheduleUpdate: function () {
-        setInterval(() => {
-            this.getData();
-        }, this.config.updateInterval);
+        // Define intervals based on the current day of the week
+        const currentDate = new Date();
+        const dayOfWeek = currentDate.getDay(); // Sunday is 0, Saturday is 6
+
+        let interval;
+        if (dayOfWeek === 6) {
+            // Saturday, update every half an hour
+            interval = 30 * 60 * 1000; // 30 minutes in milliseconds
+        } else {
+            // Sunday to Friday, update every hour
+            interval = 60 * 60 * 1000; // 1 hour in milliseconds
+        }
+
+        if (this.config.autoUpdate) {
+
+            // Second interval for daily updates
+            const oneDayMilliseconds = 24 * 60 * 60 * 1000; // milliseconds in a day
+            setInterval(() => {
+                this.refreshApiSportLeagues();
+            }, oneDayMilliseconds);
+            setTimeout(() => {
+                setInterval(() => {
+                    this.refreshData();
+                }, interval);
+            }, 2000);
+        } else {
+            // Second interval for daily updates
+            const oneDayMilliseconds = 24 * 60 * 60 * 1000; // milliseconds in a day
+            setInterval(() => {
+                this.refreshApiSportLeagues();
+            }, oneDayMilliseconds);
+            setTimeout(() => {
+                setInterval(() => {
+                    this.refreshData();
+                }, this.config.updateInterval);
+            }, 2000);
+        }
     },
 
     socketNotificationReceived: function (notification, payload) {
@@ -210,6 +261,7 @@ Module.register("MMM-Rugby", {
     },
 
     createTable2: function (dataSet) {
+        var self = this;
 
         var CompetitionType = "";
         // Determine the competition type
@@ -362,7 +414,6 @@ Module.register("MMM-Rugby", {
 
         var table = document.createElement("table");
         table.id = "rankingMatchesTable";
-        Log.log("DataSet: ", dataSet)
         // Create table header
         var thead = document.createElement("thead");
         thead.classList.add('xsmall', 'bright')
