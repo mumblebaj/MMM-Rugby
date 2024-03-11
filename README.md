@@ -67,6 +67,7 @@ Example config for `free`
                 config: {
                         updateInterval: 1000*60*60*24,
                         rotateInterval: 60000,
+                        autoUpdate: true,
                         sport: "mru",
                         rankingLimit: 10,
                         matchesLimit: 10,
@@ -112,7 +113,7 @@ The following properties can be configured:
 | Option                       | Description
 | ---------------------------- | -----------
 | `updateInterval`             | Intrval to refresh Data <br> **Default value:** `1000*60*60*24`. One Day <br> Best to set to a Weekly refresh rate.
-| `autoUpdate`                 | Only add this option if you want the update intervals to be managed automatically. This option is to manage the apiSport API calls. Will update as per `updateInterval` all days of the week except Saturdays when it will update every 30 minutes. <br> Possible value: `true`
+| `autoUpdate`                 | Only add this option if you want the update intervals to be managed automatically. Will update as per `updateInterval` all days of the week except Saturdays when it will update every 30 minutes. Works in conjunction with the updateInterval. <br><br> Possible value: `true`
 | `rotateInterval`             | The Interval to rotate between the tables <br> **Default Value:** `60000` 1 minute
 | `sport`                      | The Rugby League to get data for <br> **Possible values:** <br> `wrs`: Woman's Sevens Series 2024 <br> `mrs`: Mens Sevens Series 2024 <br> `jmu`: U20 Six Nations 2024 <br> `mru`: Includes a number of leagues <br> - Six Nations 2024 <br> - Rugby Europe International Chamionship 2024 <br> - Men's Internationals 2024 <br> - Rugby Europe Trophy 2024 <br> - Rugby Europe Conference 2024 <br> - Autumn Nations Series 2024 <br> - The Rugby Championship 2024 <br> Can be removed when collectionType is set to `apiSport`.
 | `rankingLimit`               | The Number of Rankings to return for the World Rankings <br> **Default value:** `10`
@@ -166,4 +167,5 @@ If you want to remove the borders on the tables you can add the following to you
 ## Future Enhancements
 - [x] Option to select specific MRU Leagues only
 - [x] Enhance Display of the Matches table.
+- [X] Add an autoUpdate feature to manage the update intervals automatically.
 
