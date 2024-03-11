@@ -414,7 +414,6 @@ Module.register("MMM-Rugby", {
 
         var table = document.createElement("table");
         table.id = "rankingMatchesTable";
-        Log.log("DataSet: ", dataSet)
         // Create table header
         var thead = document.createElement("thead");
         thead.classList.add('xsmall', 'bright')
