@@ -297,6 +297,7 @@ Module.register("MMM-Rugby", {
 
         // Create table header
         var thead = document.createElement("thead");
+        thead.classList.add('xsmall', 'bright');
         thead.innerHTML = `
       <tr>
         <th>Date</th>
