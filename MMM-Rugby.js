@@ -25,7 +25,8 @@ Module.register("MMM-Rugby", {
 
     getTranslations: function () {
         return {
-            fr: "translations/fr.json"
+            fr: "translations/fr.json",
+            en: "translations/en.json"
         }
     },
 
@@ -104,7 +105,7 @@ Module.register("MMM-Rugby", {
         const dayOfWeek = currentDate.getDay(); // Sunday is 0, Saturday is 6
 
         let interval;
-        if (dayOfWeek === 6 || dayOfWeek ==0) {
+        if (dayOfWeek === 6 || dayOfWeek == 0) {
             // Sunday and Saturday, update every half an hour
             interval = 30 * 60 * 1000; // 30 minutes in milliseconds
         } else {
@@ -190,7 +191,7 @@ Module.register("MMM-Rugby", {
         var headerSpan = document.createElement('span')
         headerSpan.classList.add('medium', 'bright')
         headerSpan.setAttribute('align', 'right')
-        headerSpan.innerHTML = 'World Rugby Standings'
+        headerSpan.innerHTML = this.translate("World Rugby Standings")
         rugbyHeader.appendChild(headerSpan)
         MMMRugbyDiv.appendChild(rugbyHeader)
 
@@ -203,22 +204,22 @@ Module.register("MMM-Rugby", {
         var table1HeaderRow = document.createElement("tr");
         const posHead = document.createElement('td');
         posHead.setAttribute('align', 'center');
-        posHead.innerHTML = 'Position';
+        posHead.innerHTML = this.translate("Rank");
         table1HeaderRow.appendChild(posHead)
         // Create header row for Flag
         const flagHead = document.createElement('td');
         flagHead.setAttribute('align', 'center');
-        flagHead.innerHTML = 'Flag';
+        flagHead.innerHTML = this.translate('Flag');
         table1HeaderRow.appendChild(flagHead)
         // Create header row for Team
         const teamHead = document.createElement('td');
         teamHead.setAttribute('align', 'center');
-        teamHead.innerHTML = 'Team';
+        teamHead.innerHTML = this.translate('Team');
         table1HeaderRow.appendChild(teamHead)
         // Create header row for Points
         const pointsHead = document.createElement('td');
         pointsHead.setAttribute('align', 'center');
-        pointsHead.innerHTML = 'Points';
+        pointsHead.innerHTML = this.translate('Points');
         table1HeaderRow.appendChild(pointsHead);
 
         // Append header row to table1 header
@@ -300,12 +301,12 @@ Module.register("MMM-Rugby", {
         thead.classList.add('xsmall', 'bright');
         thead.innerHTML = `
       <tr>
-        <th>Date</th>
-        <th>Time</th>
-        ${self.config.sport === 'mru' && self.config.competitions.length > 1 ? '<th>Competition</th>' : ''}
-        <th>Home Team</th>
-        <th>Away Team</th>
-        <th>Score</th>
+        <th>${this.translate("Date")}</th>
+        <th>${this.translate("Time")}</th>
+        ${self.config.sport === 'mru' && self.config.competitions.length > 1 ? `<th>${this.translate("Competition")}</th>` : ''}
+        <th>${this.translate("Home")}</th>
+        <th>${this.translate("Away")}</th>
+        <th>${this.translate("Score")}</th>
       </tr>
     `;
         table.appendChild(thead);
@@ -356,18 +357,18 @@ Module.register("MMM-Rugby", {
         var thead = document.createElement("thead");
         thead.classList.add('xsmall', 'bright')
         thead.innerHTML = `
-      <tr>
-    <th>Rank</th>
-	<th>Flag</th>
-    <th>Team</th>
-    <th>Country</th>
-    <th>Pld</th>
-    <th>W</th>
-    <th>D</th>
-    <th>L</th>
-    <th>GD</th>
-    <th>Pts</th>
-  </tr>
+        <tr>
+        <th>${this.translate("Rank")}</th>
+        <th>${this.translate("Flag")}</th>
+        <th>${this.translate("Team")}</th>
+        <th>${this.translate("Country")}</th>
+        <th>${this.translate("Pld")}</th>
+        <th>${this.translate("W")}</th>
+        <th>${this.translate("D")}</th>
+        <th>${this.translate("L")}</th>
+        <th>${this.translate("GD")}</th>
+        <th>${this.translate("Pts")}</th>
+      </tr>
     `;
         table.appendChild(thead);
 
@@ -419,12 +420,12 @@ Module.register("MMM-Rugby", {
         var thead = document.createElement("thead");
         thead.classList.add('xsmall', 'bright')
         thead.innerHTML = `
-      <tr>
-        <th>Date</th>
-        <th>Time</th>
-        <th>Home Team</th>
-        <th>Away Team</th>
-        <th>Score</th>
+        <tr>
+        <th>${this.translate("Date")}</th>
+        <th>${this.translate("Time")}</th>
+        <th>${this.translate("Home")}</th>
+        <th>${this.translate("Away")}</th>
+        <th>${this.translate("Score")}</th>
       </tr>
     `;
         table.appendChild(thead);
