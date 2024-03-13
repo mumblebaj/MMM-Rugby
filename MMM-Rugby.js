@@ -104,11 +104,11 @@ Module.register("MMM-Rugby", {
         const dayOfWeek = currentDate.getDay(); // Sunday is 0, Saturday is 6
 
         let interval;
-        if (dayOfWeek === 6) {
-            // Saturday, update every half an hour
+        if (dayOfWeek === 6 || dayOfWeek ==0) {
+            // Sunday and Saturday, update every half an hour
             interval = 30 * 60 * 1000; // 30 minutes in milliseconds
         } else {
-            // Sunday to Friday, update every hour
+            // Monday to Friday, update every hour
             interval = 60 * 60 * 1000; // 1 hour in milliseconds
         }
 
@@ -297,6 +297,7 @@ Module.register("MMM-Rugby", {
 
         // Create table header
         var thead = document.createElement("thead");
+        thead.classList.add('xsmall', 'bright');
         thead.innerHTML = `
       <tr>
         <th>Date</th>
