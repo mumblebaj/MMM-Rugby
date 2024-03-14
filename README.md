@@ -142,6 +142,9 @@ npm install
 
 ## Changes
 
+### v1.1.3
+- Add translations for `fr` and `en`
+
 ### v1.1.2
 - Add a new option `autoUpdate` which will manage the updateInterval automatically. With this option set to `true`, the application will manage the updates every hour Monday to Friday and every 30 minutes on Saturdays and Sundays when it is game day.
 
@@ -168,4 +171,4 @@ If you want to remove the borders on the tables you can add the following to you
 - [x] Option to select specific MRU Leagues only
 - [x] Enhance Display of the Matches table.
 - [X] Add an autoUpdate feature to manage the update intervals automatically.
-
+- [X] Add translations for "fr" and "en"
