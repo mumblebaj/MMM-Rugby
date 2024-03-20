@@ -21,13 +21,13 @@ module.exports = NodeHelper.create({
 
     const startofMonth = DateTime.local(DateTime.now()).startOf('month').toISODate();
 
-    const endofMonth = DateTime.local(DateTime.now()).endOf('month').toISODate();
+    const endofYear = DateTime.local(DateTime.now()).endOf('year').toISODate();
 
     const league = payload.league
 
     let filteredData = [];
 
-    const url = `https://api.wr-rims-prod.pulselive.com/rugby/v3/match?startDate=${startofMonth}&endDate=2024-12-31&sort=asc&pageSize=100&page=0&sport=` + payload.sport
+    const url = `https://api.wr-rims-prod.pulselive.com/rugby/v3/match?startDate=${startofMonth}&endDate=${endofYear}&sort=asc&pageSize=100&page=0&sport=` + payload.sport
 
     // Get the match data
     const response = await fetch(url, {
