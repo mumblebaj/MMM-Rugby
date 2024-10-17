@@ -8,7 +8,14 @@
     "leagueCountryName": "Argentina",
     "leagueCountryCode": "AR",
     "leagueCountryFlag": "https://media.api-sports.io/flags/ar.svg",
-    "currentSeasons": []
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-04-06",
+        "end": "2024-10-20"
+      }
+    ]
   },
   {
     "leagueId": 3,
@@ -96,14 +103,7 @@
     "leagueCountryName": "Czech-Republic",
     "leagueCountryCode": "CZ",
     "leagueCountryFlag": "https://media.api-sports.io/flags/cz.svg",
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2024-02-17",
-        "end": "2024-05-18"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 8,
@@ -138,10 +138,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-10-13",
-        "end": "2024-05-18"
+        "start": "2024-09-20",
+        "end": "2025-05-31"
       }
     ]
   },
@@ -167,10 +167,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-10-20",
-        "end": "2024-05-25"
+        "start": "2024-09-20",
+        "end": "2025-05-31"
       }
     ]
   },
@@ -185,10 +185,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-11-18",
-        "end": "2024-06-01"
+        "start": "2024-10-05",
+        "end": "2025-02-22"
       }
     ]
   },
@@ -201,14 +201,7 @@
     "leagueCountryName": "England",
     "leagueCountryCode": "GB",
     "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
-    "currentSeasons": [
-      {
-        "season": 2023,
-        "current": true,
-        "start": "2023-09-08",
-        "end": "2024-03-15"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 11,
@@ -263,14 +256,7 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2023,
-        "current": true,
-        "start": "2023-12-08",
-        "end": "2024-04-06"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 67,
@@ -292,7 +278,14 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": []
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-09-07",
+        "end": "2024-10-20"
+      }
+    ]
   },
   {
     "leagueId": 54,
@@ -303,14 +296,7 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2023,
-        "current": true,
-        "start": "2023-12-08",
-        "end": "2024-04-06"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 58,
@@ -321,14 +307,18 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2024-02-03",
-        "end": "2024-03-02"
-      }
-    ]
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 138,
+    "leagueName": "Rugby Europe Conference",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/138.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
   },
   {
     "leagueId": 57,
@@ -339,14 +329,7 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2023,
-        "current": true,
-        "start": "2023-10-28",
-        "end": "2024-04-13"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 63,
@@ -456,14 +439,18 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2024-02-02",
-        "end": "2024-03-16"
-      }
-    ]
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 139,
+    "leagueName": "Six Nations Summer Series U20",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/139.png",
+    "leagueCountryId": 25,
+    "leagueCountryName": "Europe",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
   },
   {
     "leagueId": 56,
@@ -474,14 +461,7 @@
     "leagueCountryName": "Europe",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2024-02-02",
-        "end": "2024-03-15"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 55,
@@ -505,10 +485,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-08-25",
-        "end": "2024-04-27"
+        "start": "2024-08-23",
+        "end": "2025-04-26"
       }
     ]
   },
@@ -523,10 +503,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-08-17",
-        "end": "2024-05-17"
+        "start": "2024-08-29",
+        "end": "2025-05-16"
       }
     ]
   },
@@ -574,10 +554,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/fr.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-08-18",
-        "end": "2024-06-08"
+        "start": "2024-09-07",
+        "end": "2025-06-07"
       }
     ]
   },
@@ -592,10 +572,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/ge.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-09-08",
-        "end": "2024-03-23"
+        "start": "2024-09-06",
+        "end": "2025-04-12"
       }
     ]
   },
@@ -610,10 +590,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/de.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-09-02",
-        "end": "2024-05-11"
+        "start": "2024-09-07",
+        "end": "2025-05-24"
       }
     ]
   },
@@ -661,10 +641,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/it.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-10-07",
-        "end": "2024-04-14"
+        "start": "2024-10-12",
+        "end": "2025-04-26"
       }
     ]
   },
@@ -699,14 +679,18 @@
     "leagueCountryName": "Japan",
     "leagueCountryCode": "JP",
     "leagueCountryFlag": "https://media.api-sports.io/flags/jp.svg",
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2023-12-09",
-        "end": "2024-05-05"
-      }
-    ]
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 137,
+    "leagueName": "Kenya Cup",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/137.png",
+    "leagueCountryId": 27,
+    "leagueCountryName": "Kenya",
+    "leagueCountryCode": "KE",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/ke.svg",
+    "currentSeasons": []
   },
   {
     "leagueId": 28,
@@ -719,10 +703,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/nl.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-09-16",
-        "end": "2024-05-04"
+        "start": "2024-09-07",
+        "end": "2025-05-17"
       }
     ]
   },
@@ -735,7 +719,14 @@
     "leagueCountryName": "New-Zealand",
     "leagueCountryCode": "NZ",
     "leagueCountryFlag": "https://media.api-sports.io/flags/nz.svg",
-    "currentSeasons": []
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-08-09",
+        "end": "2024-10-19"
+      }
+    ]
   },
   {
     "leagueId": 73,
@@ -760,6 +751,17 @@
     "currentSeasons": []
   },
   {
+    "leagueId": 136,
+    "leagueName": "Super Rugby Aupiki Women",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/136.png",
+    "leagueCountryId": 14,
+    "leagueCountryName": "New-Zealand",
+    "leagueCountryCode": "NZ",
+    "leagueCountryFlag": "https://media.api-sports.io/flags/nz.svg",
+    "currentSeasons": []
+  },
+  {
     "leagueId": 30,
     "leagueName": "Ekstraliga",
     "leagueType": "League",
@@ -770,10 +772,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/pl.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-08-12",
-        "end": "2024-05-18"
+        "start": "2024-08-17",
+        "end": "2025-05-31"
       }
     ]
   },
@@ -808,14 +810,7 @@
     "leagueCountryName": "Russia",
     "leagueCountryCode": "RU",
     "leagueCountryFlag": "https://media.api-sports.io/flags/ru.svg",
-    "currentSeasons": [
-      {
-        "season": 2023,
-        "current": true,
-        "start": "2023-07-29",
-        "end": "2024-07-07"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 34,
@@ -850,10 +845,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-09-02",
-        "end": "2024-03-02"
+        "start": "2024-08-31",
+        "end": "2025-03-22"
       }
     ]
   },
@@ -888,14 +883,7 @@
     "leagueCountryName": "South-Africa",
     "leagueCountryCode": "ZA",
     "leagueCountryFlag": "https://media.api-sports.io/flags/za.svg",
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2024-02-16",
-        "end": "2024-05-25"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 40,
@@ -930,10 +918,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/es.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-10-01",
-        "end": "2024-04-14"
+        "start": "2024-10-05",
+        "end": "2025-02-15"
       }
     ]
   },
@@ -981,10 +969,10 @@
     "leagueCountryFlag": "https://media.api-sports.io/flags/gb.svg",
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-09-02",
-        "end": "2024-04-27"
+        "start": "2024-09-07",
+        "end": "2025-04-26"
       }
     ]
   },
@@ -1074,7 +1062,14 @@
     "leagueCountryName": "World",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": []
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-06-22",
+        "end": "2024-11-30"
+      }
+    ]
   },
   {
     "leagueId": 97,
@@ -1085,7 +1080,14 @@
     "leagueCountryName": "World",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": []
+    "currentSeasons": [
+      {
+        "season": 2024,
+        "current": true,
+        "start": "2024-03-23",
+        "end": "2024-12-05"
+      }
+    ]
   },
   {
     "leagueId": 99,
@@ -1536,14 +1538,7 @@
     "leagueCountryName": "World",
     "leagueCountryCode": null,
     "leagueCountryFlag": null,
-    "currentSeasons": [
-      {
-        "season": 2024,
-        "current": true,
-        "start": "2024-02-23",
-        "end": "2024-06-01"
-      }
-    ]
+    "currentSeasons": []
   },
   {
     "leagueId": 91,
@@ -1568,6 +1563,17 @@
     "currentSeasons": []
   },
   {
+    "leagueId": 140,
+    "leagueName": "U20 Trophy",
+    "leagueType": "Cup",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/140.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
     "leagueId": 76,
     "leagueName": "United Rugby Championship",
     "leagueType": "Cup",
@@ -1578,10 +1584,10 @@
     "leagueCountryFlag": null,
     "currentSeasons": [
       {
-        "season": 2023,
+        "season": 2024,
         "current": true,
-        "start": "2023-10-21",
-        "end": "2024-06-01"
+        "start": "2024-09-20",
+        "end": "2025-05-17"
       }
     ]
   },
@@ -1645,6 +1651,39 @@
     "leagueName": "World Cup Women",
     "leagueType": "Cup",
     "leagueFlag": "https://media.api-sports.io/rugby/leagues/70.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 141,
+    "leagueName": "WXV 1 Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/141.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 142,
+    "leagueName": "WXV 2 Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/142.png",
+    "leagueCountryId": 26,
+    "leagueCountryName": "World",
+    "leagueCountryCode": null,
+    "leagueCountryFlag": null,
+    "currentSeasons": []
+  },
+  {
+    "leagueId": 143,
+    "leagueName": "WXV 3 Women",
+    "leagueType": "League",
+    "leagueFlag": "https://media.api-sports.io/rugby/leagues/143.png",
     "leagueCountryId": 26,
     "leagueCountryName": "World",
     "leagueCountryCode": null,

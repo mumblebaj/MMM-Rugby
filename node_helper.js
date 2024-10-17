@@ -198,7 +198,7 @@ module.exports = NodeHelper.create({
 
   getapiSportsLeagueData: async function (payload) {
     try {
-      const apiKey = payload.apiSports.apiSportsKey;
+      const apiKey = payload.apiSports.apiSportKey;
       const apiSportsLeagueUrl = 'https://v1.rugby.api-sports.io/leagues';
       const response = await fetch(apiSportsLeagueUrl, {
         method: 'GET',

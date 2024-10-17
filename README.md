@@ -2,6 +2,7 @@
 
 A [MagicMirror²](https://magicmirror.builders) module to display Rugby data.
 
+[![Platform](https://img.shields.io/badge/platform-MagicMirror-informational)](https://MagicMirror.builders)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ## About Module
@@ -141,6 +142,9 @@ npm install
 ````
 
 ## Changes
+
+### v1.1.5
+- Update League data from APISport as it was out dated and changed.
 
 ### v1.1.3
 - Add translations for `fr` and `en`
