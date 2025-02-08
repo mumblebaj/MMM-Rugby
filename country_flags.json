@@ -770,6 +770,13 @@
 		"flag": "https://flagsapi.com/IE/flat/64.png"
 	},
 	{
+		"country": "Ireland",
+		"2code": "IE",
+		"3code": "IA",
+		"id": 372,
+		"flag": "https://flagsapi.com/IE/flat/64.png"
+	},
+	{
 		"country": "Isle of Man",
 		"2code": "IM",
 		"3code": "IMN",
@@ -1130,6 +1137,13 @@
 		"country": "New Zealand",
 		"2code": "NZ",
 		"3code": "NZL",
+		"id": 554,
+		"flag": "https://flagsapi.com/NZ/flat/64.png"
+	},
+	{
+		"country": "New Zealand",
+		"2code": "NZ",
+		"3code": "MAB",
 		"id": 554,
 		"flag": "https://flagsapi.com/NZ/flat/64.png"
 	},
@@ -1685,6 +1699,125 @@
 		"3code": "ENG",
 		"id": 826,
 		"flag": "https://flagsapi.com/GB/flat/64.png"
+	},
+	{
+		"country": "United Kingdom of Great Britain and Northern Ireland (the)",
+		"2code": "GB",
+		"3code": "EA",
+		"id": 826,
+		"flag": "https://flagsapi.com/GB/flat/64.png"
+	},
+	{
+		"country": "DHL Stormers",
+		"2code": "",
+		"3code": "STO",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/a400984a-3f18-423c-9e76-a51ba2175dce.png"
+	},
+	{
+		"country": "Vodacom Bulls",
+		"2code": "",
+		"3code": "BUL",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/fc89a5d1-dd9f-4fba-b136-8287f598054b.png"
+	},
+	{
+		"country": "Emirates Lions",
+		"2code": "",
+		"3code": "LIO",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/368878b5-3e91-403c-a80b-8bc3c7431e37.png"
+	},
+	{
+		"country": "Hollywoodbets Sharks",
+		"2code": "",
+		"3code": "SHA",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/d062f743-6ffa-4f0a-b61a-d5d196edad60.png"
+	},
+	{
+		"country": "Benetton Rugby",
+		"2code": "",
+		"3code": "BEN",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/923a8390-23d5-4870-8329-416264ddd843.png"
+	},
+	{
+		"country": "Ulster Rugby",
+		"2code": "",
+		"3code": "ULS",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/4a6325ac-795a-45fb-ab1f-cac93b816931.png"
+	},
+	{
+		"country": "Cardif Rugby",
+		"2code": "",
+		"3code": "CAR",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/cc8980ec-9e2d-4707-821a-c4e1026ff495.png"
+	},
+	{
+		"country": "Connacht Rugby",
+		"2code": "",
+		"3code": "CON",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/cc8980ec-9e2d-4707-821a-c4e1026ff495.png"
+	},
+	{
+		"country": "Dragons Rugby",
+		"2code": "",
+		"3code": "DRA",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/7c034319-8213-4d93-b4bc-9a221f4222ae.png"
+	},
+	{
+		"country": "Glasgow Warriors",
+		"2code": "",
+		"3code": "DRA",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/9a2c3361-ce62-4058-99dd-df900306398a.png"
+	},
+	{
+		"country": "Edinburgh",
+		"2code": "",
+		"3code": "EDI",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/5fbd815f-dcf5-4d67-9f96-fb5409d11546.png"
+	},
+	{
+		"country": "Zebre Parma",
+		"2code": "",
+		"3code": "ZEB",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/3d944c8a-6458-4f0f-90bf-241c862d3a8c.png"
+	},
+	{
+		"country": "Leinster",
+		"2code": "",
+		"3code": "LEI",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/afe60d1c-13ca-4caa-a58c-49d009806392.png"
+	},
+	{
+		"country": "Ospreys",
+		"2code": "",
+		"3code": "OSP",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/9510278f-e3a1-4088-b5ae-e55842cf706b.png"
+	},
+	{
+		"country": "Munster",
+		"2code": "",
+		"3code": "MUN",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/a77e129d-e459-42c9-b74e-564d1bfd9aa2.png"
+	},
+	{
+		"country": "Scarlets",
+		"2code": "",
+		"3code": "SCA",
+		"id": 999,
+		"flag": "https://media-cdn.incrowdsports.com/0c0264b9-9b2e-40f1-ac93-ac8c41811854.png"
 	},
 	{
 		"country": "Wales",
