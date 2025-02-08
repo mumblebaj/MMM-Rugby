@@ -143,6 +143,9 @@ npm install
 
 ## Changes
 
+### v1.1.6
+- Add flags for URC 2025 Clubs
+
 ### v1.1.5
 - Update League data from APISport as it was out dated and changed.
 
