@@ -88,4 +88,7 @@ width: 100%;
 border: 1px solid #dddddd;
 text-align: left;
 padding: 8px;
+white-space: normal;
+max-width: 150px;
+word-wrap: break-word;
 }

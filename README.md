@@ -143,6 +143,9 @@ npm install
 
 ## Changes
 
+### v1.1.7
+- Update CSS to wrap if text is too long
+
 ### v1.1.6
 - Add flags for URC 2025 Clubs
 
