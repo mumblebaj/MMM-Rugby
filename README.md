@@ -5,6 +5,8 @@ A [MagicMirror²](https://magicmirror.builders) module to display Rugby data.
 [![Platform](https://img.shields.io/badge/platform-MagicMirror-informational)](https://MagicMirror.builders)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
+<a href="https://www.buymeacoffee.com/mumblebaj" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 180px !important;" ></a>
+
 ## About Module
 
 This module will get the current World Rugby Rankings. A selection of Rugby Leaqgues can be configures to be dispalyed as a second table. This is past matches and results and upcoming matches.
