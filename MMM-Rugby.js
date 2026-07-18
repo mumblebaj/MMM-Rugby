@@ -3,6 +3,10 @@ Module.register("MMM-Rugby", {
         title: "MMM-Rugby",
         updateInterval: 1000 * 60 * 60 * 24,
         rotateInterval: 60000,
+        rotateIntervals: {
+            table1: 30000,
+            table2: 60000
+        },
         sport: "mru",
         rankingLimit: 10,
         matchesLimit: 10,
@@ -33,10 +37,10 @@ Module.register("MMM-Rugby", {
     getTemplate: function () { },
 
     start: function () {
-        var self = this;
         Log.info(`Starting module: ${this.name}`);
 
         this.currentTable = 1;
+        this.rotationTimer = null;
 
         this.dataSets = {
             free: {
@@ -55,10 +59,7 @@ Module.register("MMM-Rugby", {
 
         this.getData();
         this.scheduleUpdate();
-
-        setInterval(function () {
-            self.rotateTables();
-        }, this.config.rotateInterval);
+        this.scheduleNextRotation();
     },
 
     getData: function () {
@@ -170,7 +171,27 @@ Module.register("MMM-Rugby", {
 
     },
 
+    getCurrentRotateInterval: function () {
+        const currentTableKey = `table${this.currentTable}`;
+        const rotateIntervals = this.config.rotateIntervals || {};
+
+        return rotateIntervals[currentTableKey] || this.config.rotateInterval;
+    },
+
+    scheduleNextRotation: function () {
+        clearTimeout(this.rotationTimer);
+
+        this.rotationTimer = setTimeout(() => {
+            this.rotateTables();
+        }, this.getCurrentRotateInterval());
+    },
+
     rotateTables: function () {
+        if (!this.table1 || !this.table2) {
+            this.scheduleNextRotation();
+            return;
+        }
+
         // Toggle visibility of tables
         if (this.currentTable === 1) {
             this.currentTable = 2;
@@ -181,6 +202,8 @@ Module.register("MMM-Rugby", {
             this.table1.style.display = "block";
             this.table2.style.display = "none";
         }
+
+        this.scheduleNextRotation();
     },
 
     createTable1: function (dataSet) {

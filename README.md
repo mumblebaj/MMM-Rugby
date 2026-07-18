@@ -69,7 +69,10 @@ Example config for `free`
         disabled: false,
                 config: {
                         updateInterval: 1000*60*60*24,
-                        rotateInterval: 60000,
+                        rotateIntervals: {
+                            table1: 30000,
+                            table2: 60000
+                        },
                         autoUpdate: true,
                         sport: "mru",
                         rankingLimit: 10,
@@ -90,7 +93,10 @@ Example config for `apiSport`
                 config: {
                         updateInterval: 1000*60*60,
                         autoUpdate: true,
-                        rotateInterval: 60000,
+                        rotateIntervals: {
+                            table1: 30000,
+                            table2: 60000
+                        },
                         rankingLimit: 10,
                         matchesLimit: 10,
                         matchesOlderThan: 7,
@@ -117,7 +123,8 @@ The following properties can be configured:
 | ---------------------------- | -----------
 | `updateInterval`             | Intrval to refresh Data <br> **Default value:** `1000*60*60*24`. One Day <br> Best to set to a Weekly refresh rate.
 | `autoUpdate`                 | Only add this option if you want the update intervals to be managed automatically. Will update as per `updateInterval` all days of the week except Saturdays and Sundays when it will update every 30 minutes. Works in conjunction with the updateInterval. <br><br> Possible value: `true`
-| `rotateInterval`             | The Interval to rotate between the tables <br> **Default Value:** `60000` 1 minute
+| `rotateIntervals`            | Per-table display durations in milliseconds. `table1` controls how long the rankings/standings table stays visible and `table2` controls how long the matches table stays visible. <br> **Default Value:** `{"table1": 30000, "table2": 60000}`
+| `rotateInterval`             | Legacy fallback interval in milliseconds used when a per-table value is not supplied. <br> **Default Value:** `60000` 1 minute
 | `sport`                      | The Rugby League to get data for with competitions <br> **Possible values:** <br> `wrs` - Woman's Sevens Series 2024 <br> `mrs` - Mens Sevens Series 2024 <br> `jmu` - U20 Six Nations 2024 <br> `mru` - Mens Rugby Union <br> `wru` - Womans Rugby Union <br> Can be removed when collectionType is set to `apiSport` <br> See `competitions` for further filtering if required, else all competitions under the selected sport are returned.
 | `rankingLimit`               | The Number of Rankings to return for the World Rankings <br> **Default value:** `10`
 | `matchesLimit`               | The number of matches to return. <br> **Default value:** `10`
